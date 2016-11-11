@@ -1,5 +1,4 @@
 {% extends '@nucleus/partials/particle.html.twig' %}
-
 {% block particle %}
 
     <div class="{{ particle.class|e }}">
@@ -8,10 +7,11 @@
         {% endif %}
 
         <div class="portfolio-top"></div>
-        <!--
-            <div id="portfolio-filter">
-                --portfolio category--
-                <ul class="portfolio-filter-list center white">
+        {% if particle.on %}
+        <div id="portfolio-filter">
+            <!--portfolio category-->
+            <div class="center">
+                <ul class="portfolio-filter-list white">
                     <li>
                         <a class="active" href="#" data-cat="*">ALL</a>
                     </li>
@@ -23,27 +23,30 @@
                         {% endif %}
                     {% endfor %}
                 </ul>
-                --End portfolio category--
-            </div>-->
-
-        <!-- End #portfolio-filter -->
-        {% for item in particle.items %}
-            <div id="portfolio-items" class="portfolio-items item_fade_in">
-                <article class="{{ item.filters|e }}">
-                    <img src="{{ url(item.image)|e }}" alt="image"/>
-                    <div class="overlay">
-                        <div class="item-info">
-                            <i class="fa fa-camera"></i>
-                            <h3>{{ item.title|e }}</h3>
-                            <span>{{ item.label|e }}</span>
-                        </div>
-                    </div>
-                    <!-- End .overlay -->
-                </a>
-            </article>
+            </div>
+            <!--End portfolio category-->
         </div>
-    {% endfor %}
-    <!-- End #portfolio-items.portfolio-items -->
-</div>
+        {% endif %}
+
+        <!-- portfolio-items -->
+        <div id="portfolio-items" class="portfolio-items item_fade_in">
+            {% for item in particle.items %}
+                <article class="{{ item.filters|e }}">
+                    <a href="#!projects/project-single.html">
+                        <img src="{{ url(item.image)|e }}" alt="image"/>
+                        <div class="overlay">
+                            <div class="item-info">
+                                <i class="fa fa-camera"></i>
+                                <h3>{{ item.title|e }}</h3>
+                                <span>{{ item.label|e }}</span>
+                            </div>
+                        </div>
+                        <!-- End .overlay -->
+                    </a>
+                </article>
+            {% endfor %}
+        </div>
+        <!-- End portfolio-items -->
+    </div>
 
 {% endblock %}

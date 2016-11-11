@@ -1,5 +1,5 @@
 name: home
-timestamp: 1478755695
+timestamp: 1478812999
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,12 +9,12 @@ positions: {  }
 sections:
   navigation: Navigation
   about: About
-  portfolio: Portfolio
+  process: Process
   skills: Skills
   jobTitle: JobTitle
   experience: Experience
+  portfolio: Portfolio
   testimonials: Testimonials
-  process: Process
   maincontent-bottom: Maincontent-bottom
   header: Header
   mainbar: Mainbar
@@ -30,14 +30,14 @@ particles:
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
     owlcarousel-7694: 'What clients Say'
-    owlcarousel-3535: 'Owl Carousel'
+    owlcarousel-3535: logos
   sectiontitle:
     sectiontitle-6772: 'Section Title'
-    sectiontitle-4130: 'Section Title'
-    sectiontitle-7889: 'Section Title'
+    sectiontitle-7352: MyExperience
+    sectiontitle-7889: Skills
     sectiontitle-7106: 'Section Title'
+    sectiontitle-4130: 'Section Title'
     sectiontitle-8354: 'Section Title'
-    sectiontitle-7352: 'Section Title'
     sectiontitle-2639: 'Section Title'
   profile:
     profile-4138: 'Profile Image'
@@ -47,11 +47,11 @@ particles:
     statscubes-6326: 'Stats Cubes'
   custom:
     custom-9799: Services
-    custom-1231: 'Custom HTML'
-    custom-9050: 'Custom HTML'
+    custom-8278: 'Custom HTML'
+    custom-5538: 'Custom HTML'
     custom-8220: 'Custom HTML'
-  isotope:
-    isotope-4854: Portfolio
+  processflow:
+    processflow-5648: 'Process Flow'
   skillchart:
     skillchart-5713: 'Circle Graph'
     skillchart-3634: 'Circle Graph'
@@ -59,15 +59,17 @@ particles:
     skillchart-1146: 'Circle Graph'
     skillchart-6806: jQuery
     skillchart-1002: PHP
-  skillbar:
-    skillbar-9825: SkillBar
-    skillbar-2264: SkillBar
+  spacer:
+    spacer-7406: Spacer
+    spacer-9754: Spacer
+    spacer-1647: Spacer
+    spacer-8422: Spacer
   career:
     career-4984: Career
   timeline:
-    timeline-4115: Timeline
-  processflow:
-    processflow-5648: 'Process Flow'
+    timeline-4115: Education
+  isotope:
+    isotope-4854: Portfolio
   messages:
     system-messages-9954: 'System Messages'
   social:

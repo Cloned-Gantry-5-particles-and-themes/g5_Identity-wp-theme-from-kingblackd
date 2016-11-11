@@ -1,15 +1,5 @@
 enabled: '1'
 post:
-  filter:
-    categories: ''
-    sticky: ''
-  limit:
-    total: '2'
-    columns: '2'
-    start: '0'
-  sort:
-    orderby: date
-    ordering: DESC
   display:
     image:
       enabled: show

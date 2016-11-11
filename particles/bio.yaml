@@ -31,13 +31,3 @@ form:
       type: input.selectize
       label: CSS Classes
       description: Set a specific CSS class for custom styling.
-
-    twig:
-       type: input.checkbox
-       label: Process Twig
-       description: Enable Twig template processing in the content. Twig will be processed before shortcodes.
-
-    filter:
-      type: input.checkbox
-      label: Process shortcodes
-      description: Enable shortcode processing / filtering in the content.

@@ -2,7 +2,6 @@
 
 {% block particle %}
     {% set image = url(particle.image) %}
-    {% set html = particle.text ? gantry.theme.compile(particle.text) : particle.text %}
 
     <!-- some text about yourself -->
     		<div class="bio {{ particle.class|e }}">
@@ -11,16 +10,14 @@
     				    {{ particle.title }}
     			</p>
           {% endif %}
-          {% if particle.title %}
-    			<p>
-    				    {{ (particle.filter ? gantry.platform.filter(html) : html)|html|raw }}
-    			</p>
+          {% if particle.text %}
+    				    {{ particle.text|raw }}
           {% endif %}
-          <p class="text-right">
-            {% if image %}
+          {% if image %}
+          <p class="align-right">
               <img src="{{ url(particle.image) }}" alt="{{ particle.name }}" />
-            {% endif %}
           </p>
+          {% endif %}
     		</div>
         <!-- ./some text about yourself -->
 {% endblock %}

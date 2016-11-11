@@ -19,6 +19,7 @@
 
   .name-title h2,
   .name-title h5 {
+    margin-top: -10px;
     color: #ffffff;
     text-align: center;
   }
@@ -32,10 +33,11 @@
   }
 
   .quoteline {
-    font-family: oswald, Impact, 'Arial Narrow Bold', sans-serif;
-    font-size: 22px;
+    font-family: 'oswald', Impact, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
     letter-spacing: 1px;
-    font-weight: 300;
+    font-weight: normal;
+    color: #666;
   }
 
   .arrow-list {

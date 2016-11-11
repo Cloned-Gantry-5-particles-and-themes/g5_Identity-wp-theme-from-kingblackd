@@ -22,6 +22,11 @@ form:
       description: Customize the title text.
       placeholder: 'Enter title'
 
+    on:
+      type: input.checkbox
+      label: Enabel Filter
+      description: Enable the filters
+
     filters:
       type: collection.list
       array: true

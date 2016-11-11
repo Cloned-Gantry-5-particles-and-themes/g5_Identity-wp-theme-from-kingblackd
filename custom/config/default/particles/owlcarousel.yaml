@@ -1,10 +1,12 @@
 enabled: '1'
 class: ''
-variation2: '0'
+variant: o1
 title: ''
-nav: enable
-dots: enable
+nav: disable
+dots: disable
+slides: '1'
 autoplay: disable
 autoplaySpeed: ''
-imageOverlay: disable
+full: '0'
+loop: '1'
 items: {  }

@@ -6,8 +6,8 @@ accent:
   color-1: '#355c7d'
   color-2: '#5f616b'
 font:
-  family-default: 'Source Sans Pro, Helvetica, Tahoma, Geneva, Arial, sans-serif'
-  family-title: 'Oswald, Helvetica, Tahoma, Geneva, Arial, sans-serif'
+  family-default: 'family=Source+Sans+Pro:300,600,700,900,  Helvetica, Tahoma, Geneva, Arial, sans-serif'
+  family-title: 'family=Oswald:300,700,400, Helvetica, Tahoma, Geneva, Arial, sans-serif'
 navigation:
   background: '#312f38'
   text-color: '#ffffff'
@@ -30,8 +30,8 @@ above:
   text-color: '#424753'
 testimonials:
   background: '#312f38'
-  background-image: ''
-  background-overlay: enabled
+  background-image: 'gantry-media://2014/09/parallax3.jpg'
+  background-overlay: disabled
   text-color: '#ffffff'
 expanded:
   background: '#ffffff'

@@ -1,16 +1,15 @@
 ordering:
   home: ''
   about: ''
-  portfolio: ''
-  skills: ''
-  career: ''
-  education: ''
-  clients: ''
   process: ''
+  skills: ''
+  resume: ''
+  works: ''
+  clients: ''
   contact: ''
 items:
   home:
-    id: 160
+    id: 892
     type: custom
     enabled: '1'
     dropdown_dir: right
@@ -18,38 +17,7 @@ items:
     width: auto
     anchor_class: ''
   about:
-    id: 161
-    type: custom
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
-  portfolio:
-    id: 162
-    type: custom
-    enabled: true
-    anchor_class: ''
-  skills:
-    id: 163
-    type: custom
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
-  career:
-    id: 164
-    type: custom
-    enabled: true
-    anchor_class: ''
-  education:
-    id: 165
-    type: custom
-    enabled: true
-    anchor_class: ''
-  clients:
-    id: 166
+    id: 885
     type: custom
     enabled: '1'
     dropdown_dir: right
@@ -57,7 +25,33 @@ items:
     width: auto
     anchor_class: ''
   process:
-    id: 167
+    id: 890
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  skills:
+    id: 887
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  resume:
+    id: 888
+    type: custom
+    enabled: true
+    anchor_class: ''
+  works:
+    id: 886
+    type: custom
+    enabled: true
+    anchor_class: ''
+  clients:
+    id: 889
     type: custom
     enabled: '1'
     dropdown_dir: right
@@ -65,7 +59,7 @@ items:
     width: auto
     anchor_class: ''
   contact:
-    id: 168
+    id: 891
     type: custom
     enabled: '1'
     dropdown_dir: right

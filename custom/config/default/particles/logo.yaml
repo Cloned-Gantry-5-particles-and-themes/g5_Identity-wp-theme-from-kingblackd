@@ -1,6 +1,7 @@
 enabled: '1'
 url: ''
-image: 'gantry-media://2014/09/logo.png'
+image: ''
+link: '0'
 svg: ''
 text: Identity
 class: 'g-logo g-logo-Identity'
