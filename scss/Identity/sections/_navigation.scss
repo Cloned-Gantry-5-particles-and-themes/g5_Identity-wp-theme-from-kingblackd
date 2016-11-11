@@ -1,0 +1,239 @@
+#g-navigation {
+    background: fadeout($navigation-background, 100%);
+    color: $navigation-text-color;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    right: 0;
+    transition: all 1s ease-out 0s;
+
+    // Container
+    .g-container {
+        position: relative;
+    }
+
+    .g-content {
+        transition: all 0.5s ease-out 0s;
+        img,svg {
+          transition: all 0.5s ease-out 0s;
+        }
+    }
+
+    .smallpadding-content .g-content {
+        padding: 0.313rem;
+    }
+    // Logo
+    .g-logo {
+        color: $navigation-text-color;
+        line-height: 2.8rem;
+
+        &.g-logo-Identity {
+            svg {
+                fill: $navigation-text-color;
+            }
+        }
+    }
+    // Social Particle
+    .g-social-header {
+        @include breakpoint(mobile-only) {
+            .g-content {
+                margin-top: 0;
+                padding: 0 $content-padding;
+            }
+        }
+    }
+
+    .g-social {
+        text-align: right;
+        line-height: 3.125;
+        @include breakpoint(mobile-only) {
+            text-align: center;
+        }
+
+        .rtl & {
+            text-align: left;
+        }
+    }
+    // Menu Styling
+    .g-main-nav {
+        font-family: get-font-family($font-family-default);
+        line-height: $navigation-line-height;
+
+        .g-toplevel {
+            line-height: ($navigation-line-height + 1.625);
+
+            > li {
+                margin: 0 0.2rem;
+                transition: all 0.2s ease-out 0s;
+
+                > .g-menu-item-container {
+                    color: $navigation-text-color;
+                    padding: $content-padding/2 16px;
+                    border-radius: 4px;
+
+                    > .g-menu-item-content {
+                        padding: 0 0 $content-padding/4;
+                    }
+
+                    .g-menu-parent-indicator {
+                        vertical-align: top;
+
+                        &:after {
+                            content: "\f107";
+                            opacity: 0.75;
+                            width: 1rem;
+                            font-weight: $font-weight-regular;
+                        }
+                    }
+
+                    i {
+                        opacity: 1;
+                    }
+                }
+
+                &:hover {
+                    > .g-menu-item-container {
+                        color: #717171;
+                        background: $navigation-text-color;
+
+                        > .g-selected {
+                            color: fadeout($navigation-text-color, 30%);
+                        }
+                    }
+                }
+
+                &.active {
+                    > .g-menu-item-container {
+                        box-shadow: 0 0 0 1px $navigation-text-color inset;
+
+                        > .g-menu-item-content {
+                            //box-shadow: 0 2px 0 fadeout($navigation-text-color, 80%);
+                        }
+
+                        > .g-selected {
+                            box-shadow: 0 2px 0 fadeout($navigation-text-color, 80%);
+                        }
+                    }
+                }
+            }
+        }
+
+        .g-dropdown {
+            background: lighten($navigation-background, 2%);
+            border: 1px solid fadeout($navigation-text-color, 80%);
+            border-radius: $border-radius;
+
+            > .g-dropdown-column {
+                border: 1px solid transparent;
+            }
+
+            a {
+                color: $navigation-text-color;
+
+                &:hover {
+                    color: $accent-color-1;
+                }
+            }
+
+            .g-dropdown-column {
+                position: relative;
+            }
+
+            .g-dropdown {
+                margin-left: 20px;
+            }
+        }
+
+        .g-sublevel {
+            > li {
+                > .g-menu-item-container {
+                    color: $navigation-text-color;
+
+                    > .g-selected {
+                        color: $navigation-text-color;
+                    }
+                }
+
+                &:not(:last-child) {
+                    > .g-menu-item-container {
+                        border-bottom: 1px solid fadeout($navigation-text-color, 80%);
+
+                        > .g-selected {
+                            border-bottom: 1px solid fadeout($navigation-text-color, 80%);
+                        }
+                    }
+                }
+
+                &.active,
+                &:hover {
+                    > .g-menu-item-container {
+                        color: $accent-color-1;
+
+                        > .g-selected {
+                            color: $accent-color-1;
+                        }
+                    }
+                }
+
+                &.g-menu-item-type-particle {
+                    > .g-menu-item-container {
+                        border: 0;
+                    }
+
+                    &.active,
+                    &:hover {
+                        > .g-menu-item-container {
+                            border: 0;
+                        }
+                    }
+                }
+
+                &.g-menu-item-type-particle {
+                    &:hover {
+                        > .g-menu-item-container {
+                            background: inherit;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .g-menu-block {
+        @include breakpoint(mobile-only) {
+            display: none;
+        }
+    }
+
+    .g-menu-item-subtitle {
+        text-transform: lowercase;
+        font-size: 0.8rem;
+        opacity: 0.8;
+        padding-top: 0;
+    }
+
+    &.darken {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+
+    &.minified {
+        opacity: 0.9;
+        transition: all 0.5s ease-out 0s;
+
+        .g-content {
+            margin: 0 0 5px;
+            padding: 0 0;
+            transition: all 0.5s ease-out 0s;
+            img,svg {
+              padding-top: 5px;
+              transition: all 0.5s ease-out 0s;
+            }
+        }
+    }
+}
+@media print {
+    #g-navigation {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

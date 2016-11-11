@@ -1,0 +1,74 @@
+ordering:
+  home: ''
+  about: ''
+  portfolio: ''
+  skills: ''
+  career: ''
+  education: ''
+  clients: ''
+  process: ''
+  contact: ''
+items:
+  home:
+    id: 160
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  about:
+    id: 161
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  portfolio:
+    id: 162
+    type: custom
+    enabled: true
+    anchor_class: ''
+  skills:
+    id: 163
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  career:
+    id: 164
+    type: custom
+    enabled: true
+    anchor_class: ''
+  education:
+    id: 165
+    type: custom
+    enabled: true
+    anchor_class: ''
+  clients:
+    id: 166
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  process:
+    id: 167
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''
+  contact:
+    id: 168
+    type: custom
+    enabled: '1'
+    dropdown_dir: right
+    dropdown_hide: '0'
+    width: auto
+    anchor_class: ''

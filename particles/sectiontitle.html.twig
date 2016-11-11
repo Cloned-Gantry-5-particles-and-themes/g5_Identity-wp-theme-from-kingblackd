@@ -1,0 +1,23 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <!-- Section Title -->
+		<div class="section-title {{ particle.class|e }}">
+      {% if particle.icon %}
+  			<div>
+          <i class="{{ particle.icon }}"></i>
+  			</div>
+      {% endif %}
+      {% if particle.title %}
+		   <h1>{{ particle.title }}
+          {% if particle.label %}
+            <span>{{ particle.label }}</span>
+          {% endif %}
+        </h1>
+        {% elseif not particle.title or particle.label %}
+        <h1><span>{{ particle.label }}</span></h1>
+      {% endif %}
+		</div>
+
+{% endblock %}

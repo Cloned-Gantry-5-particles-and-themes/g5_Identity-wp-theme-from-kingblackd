@@ -1,0 +1,52 @@
+name: Contact Details
+description: Display plain contact info.
+type: particle
+icon: fa-question-circle
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    title:
+      type: input.text
+      label: name
+      description: Enter your name.
+      placeholder: John Doe
+
+    address:
+      type: input.text
+      label: Address
+      description: Your address.
+      placeholder: Enter your address
+
+    phone:
+      type: input.tel
+      label: Primary Phone
+      description: Your phone number.
+      placeholder: Enter your phone number
+
+    phone2:
+      type: input.tel
+      label: Secondary Phone
+      description: Your phone number.
+      placeholder: Enter your phone number
+
+    email:
+      type: input.email
+      label: Email
+      description: Your Email.
+      placeholder: Enter your Email
+
+    icon:
+      type: input.icon
+      label: Icon
+      description: Input the icon.

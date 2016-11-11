@@ -1,0 +1,12 @@
+#g-process {
+    background: $process-background;
+    color: $process-text-color;
+    padding: $section-padding 0;
+}
+
+@media print {
+    #g-process {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

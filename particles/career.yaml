@@ -1,0 +1,53 @@
+name: Career
+description: Career section.
+type: particle
+icon: fa fa-file-text-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    btnclass:
+      type: input.text
+      label: Button Classes
+      description: CSS class name for the button.
+
+    label:
+      type: input.text
+      label: 'Pre Text'
+      description: Enter a precidence.
+      placeholder: 'I am available for'
+
+    title:
+      type: input.text
+      label: 'Title'
+      description: Enter a your job title.
+      placeholder: 'Freelancer'
+
+    linktxt:
+      type: input.text
+      label: 'Link Text'
+      description: Enter the Text.
+      placeholder: 'Hire Me'
+
+    link:
+      type: input.text
+      label: Contact Link
+      description: Specify the contact link.
+      placeholder: '/'
+
+    location:
+          type: input.filepicker
+          label: File Location
+          icon: fa fa-file-word-o
+          placeholder: 'your resume file'
+          filter: '\.(pdf|doc|docx|rtf)$'

@@ -1,0 +1,27 @@
+name: Skill Circle Graph
+description: Display a Circle Chart.
+type: particle
+icon: fa-star-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    title:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: 'Enter title'
+    desc:
+      type: textarea.textarea
+      label: Description
+      description: Customize the description.
+      placeholder: Enter short description
+    percent:
+      type: input.number
+      label: Percentage
+      description: Enter the value.

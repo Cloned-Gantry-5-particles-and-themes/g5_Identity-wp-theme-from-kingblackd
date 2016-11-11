@@ -1,0 +1,49 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <div class="{{ particle.class|e }}">
+        {% if particle.title %}
+            <h2 class="g-title">{{ particle.title|raw }}</h2>
+        {% endif %}
+
+        <div class="portfolio-top"></div>
+        <!--
+            <div id="portfolio-filter">
+                --portfolio category--
+                <ul class="portfolio-filter-list center white">
+                    <li>
+                        <a class="active" href="#" data-cat="*">ALL</a>
+                    </li>
+                    {% for option in particle.filters %}
+                        {% if option.title %}
+                            <li>
+                                <a href="#" data-cat="{{ option.title|lower }}">{{ option.title|title }}</a>
+                            </li>
+                        {% endif %}
+                    {% endfor %}
+                </ul>
+                --End portfolio category--
+            </div>-->
+
+        <!-- End #portfolio-filter -->
+        {% for item in particle.items %}
+            <div id="portfolio-items" class="portfolio-items item_fade_in">
+                <article class="{{ item.filters|e }}">
+                    <img src="{{ url(item.image)|e }}" alt="image"/>
+                    <div class="overlay">
+                        <div class="item-info">
+                            <i class="fa fa-camera"></i>
+                            <h3>{{ item.title|e }}</h3>
+                            <span>{{ item.label|e }}</span>
+                        </div>
+                    </div>
+                    <!-- End .overlay -->
+                </a>
+            </article>
+        </div>
+    {% endfor %}
+    <!-- End #portfolio-items.portfolio-items -->
+</div>
+
+{% endblock %}

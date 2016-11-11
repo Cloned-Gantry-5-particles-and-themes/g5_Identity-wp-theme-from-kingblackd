@@ -1,0 +1,26 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% set image = url(particle.image) %}
+    {% set html = particle.text ? gantry.theme.compile(particle.text) : particle.text %}
+
+    <!-- some text about yourself -->
+    		<div class="bio {{ particle.class|e }}">
+          {% if particle.title %}
+    			<p class="quoteline">
+    				    {{ particle.title }}
+    			</p>
+          {% endif %}
+          {% if particle.title %}
+    			<p>
+    				    {{ (particle.filter ? gantry.platform.filter(html) : html)|html|raw }}
+    			</p>
+          {% endif %}
+          <p class="text-right">
+            {% if image %}
+              <img src="{{ url(particle.image) }}" alt="{{ particle.name }}" />
+            {% endif %}
+          </p>
+    		</div>
+        <!-- ./some text about yourself -->
+{% endblock %}

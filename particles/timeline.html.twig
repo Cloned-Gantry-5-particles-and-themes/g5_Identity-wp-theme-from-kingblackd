@@ -1,0 +1,52 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+{% set section = [] %}
+
+    <div class="profile {{ particle.class|e }}">
+        <!-- YOUR PHOTO -->
+        {% if particle.name %}
+            <div class="name-title">
+                <h2>{{ particle.name }}</h2>
+                <!-- Your Name -->
+                {% if particle.title %}
+                    <h5>{{ particle.title }}</h5>
+                    <!-- Your Designation -->
+                {% endif %}
+            </div>
+        {% endif %}
+    </div>
+
+    <ul class="timeline list-unstyled {{ particle.class|e }}">
+        <!-- History Year -->
+        {% for experience in particle.items %}
+            {% if experience.section not in section %}
+                <li class="title">{{ experience.section }}</li>
+                {% set section = section | merge([experience.section]) %}
+
+                {% for key, item in particle.items %}
+                    {% if experience.section == item.section %}
+                        {% if key % 2 == 0 %}
+                            <li class="note item_right">
+                            {% else %}
+                            <li class="note item_left">
+                            {% endif %}
+                            <h4>{{ item.title }}</h4>
+                            <h5>{{ item.label }}</h5>
+                            <p class="desc">{{ item.desc }}</p>
+                            <span class="date">{{ item.startdate }}
+                                to
+                                {{ item.enddate }}</span>
+                            <span class="arrow fa fa-play"></span>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+
+            {% endif %}
+        {% endfor %}
+        <!-- Start icon -->
+        <li class="start fa fa-bookmark"></li>
+        <li class="clear"></li>
+    </ul>
+
+{% endblock %}

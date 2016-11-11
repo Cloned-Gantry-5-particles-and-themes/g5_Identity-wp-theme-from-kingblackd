@@ -1,0 +1,149 @@
+// REQUIRED DEPENDENCIES - DO NOT CHANGE
+
+@import "dependencies";
+
+//-------------------------------------------
+
+// THEME STYLING
+
+// Base
+@import "nucleus/theme/base";
+
+// Responsive
+@import "Identity/styles/responsive";
+
+// Fonts
+@import "Identity/styles/fonts";
+
+// Core
+@import "Identity/styles/core";
+
+// Hyperlinks
+@import "Identity/styles/hyperlinks";
+
+// Typography
+@import "Identity/styles/typography";
+
+// Utilities
+@import "Identity/styles/utilities";
+
+// Variations
+@import "Identity/styles/variations";
+
+// Buttons
+@import "Identity/styles/buttons";
+
+// Tables
+@import "Identity/styles/tables";
+
+// Forms
+@import "Identity/styles/forms";
+
+// Dropdown Animations
+@import "Identity/styles/dropdownanimations";
+
+//-------------------------------------------
+
+// SECTIONS STYLING
+
+// PageSurround
+@import "Identity/sections/pagesurround";
+
+// Header
+@import "Identity/sections/header";
+
+// Navigation
+@import "Identity/sections/navigation";
+
+// Main Nav
+@import "Identity/sections/mainnav";
+
+// About
+@import "Identity/sections/about";
+
+// Portfolio
+@import "Identity/sections/portfolio";
+
+// Skills
+@import "Identity/sections/skills";
+
+// JobTitle
+@import "Identity/sections/jobtitle";
+
+// Experience
+@import "Identity/sections/experience";
+
+// Testimonials
+@import "Identity/sections/testimonials";
+
+// Process
+@import "Identity/sections/process";
+
+// Main
+@import "Identity/sections/main";
+
+// Maincontent-bottom
+@import "Identity/sections/maincontent-bottom";
+
+// Aside
+@import "Identity/sections/aside";
+
+// Sidebar
+@import "Identity/sections/sidebar";
+
+// Footer
+@import "Identity/sections/footer";
+
+// Off Canvas
+@import "Identity/sections/offcanvas";
+
+//-------------------------------------------
+
+// LAYOUTS STYLING
+
+// Error
+@import "Identity/layouts/error";
+
+// Offline
+@import "Identity/layouts/offline";
+
+//-------------------------------------------
+
+// PARTICLES STYLING
+
+// Logo
+@import "Identity/particles/logo";
+
+// Social
+@import "Identity/particles/social";
+
+// Content Array
+@import "Identity/particles/contentarray";
+
+// Content Cubes
+@import "Identity/particles/contentcubes";
+
+// Content Tabs
+@import "Identity/particles/contenttabs";
+
+// Owl Carousel
+@import "Identity/particles/owlcarousel";
+@import "Identity/particles/clients";
+@import "Identity/particles/contact";
+@import "Identity/particles/effects";
+@import "Identity/particles/project";
+@import "Identity/particles/skillbar";
+@import "Identity/particles/timeline";
+
+// Horizontal Menu
+@import "Identity/particles/horizontalmenu";
+
+// To Top
+@import "Identity/particles/totop";
+
+//-------------------------------------------
+
+// BREAKPOINTS
+@import "nucleus/theme/breakpoints/base";
+
+//-------------------------------------------

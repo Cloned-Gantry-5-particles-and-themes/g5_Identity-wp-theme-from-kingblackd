@@ -1,0 +1,156 @@
+/* ##### Work Experience and Education ##### */
+ul.timeline {
+  background: url("../img/timeline-bg.jpg") repeat-y scroll center center rgba(0, 0, 0, 0);
+  height: auto;
+  margin: 40px auto 0;
+  padding: 0 0 80px;
+  position: relative;
+  width: 100%;
+}
+
+.timeline .title {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 3px solid #D6D6D6;
+  border-radius: 6px;
+  clear: both;
+  color: #3C3D3D;
+  font-size: 18px;
+  font-weight: 400;
+  height: 65px;
+  margin: 31px auto;
+  padding: 15px 0;
+  text-align: center;
+  text-transform: uppercase;
+  width: 150px;
+}
+
+.timeline .note {
+  background: none repeat scroll 0 0 rgba(242, 242, 242, 0.1);
+  border-radius: 12px;
+  cursor: pointer;
+  float: left;
+  margin: 10px 0;
+  padding: 20px;
+  position: relative;
+  transition: all 0.5s ease 0s;
+  width: 47.5%;
+  z-index: 550;
+}
+
+.timeline .title + .note {
+  margin-top: -20px;
+}
+
+.timeline .start {
+  background: none repeat scroll 0 0 #FFFFFF;
+  border: 3px solid #D6D6D6;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  bottom: 0;
+  clear: both;
+  color: #222222;
+  font-size: 24px;
+  height: 64px;
+  left: 50%;
+  margin-left: -32px;
+  padding: 19px 0;
+  position: absolute;
+  text-align: center;
+  width: 64px;
+}
+
+.timeline .note h4 {
+  color: #666666;
+  font-size: 19px;
+  margin: 5px 0;
+  text-transform: uppercase;
+}
+
+.timeline .note h5 {
+  color: #666666;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.timeline .note p {
+  color: #999999;
+  font-size: 14px;
+  margin: 8px 0;
+}
+
+.timeline .note span.date {
+  color: #666666;
+  font-size: 14px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+.timeline .note .arrow {
+  color: rgba(242, 242, 242, 0.1);
+  font-size: 12px;
+  left: auto;
+  position: absolute;
+  right: -1.6%;
+  top: 20px;
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  transform: rotate(360deg);
+  transition: all 0.5s ease 0s;
+}
+
+.timeline .note:after {
+  background: none repeat scroll 0 0 #e1e1e1;
+  border: 2px solid #D6D6D6;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  content: "";
+  display: block;
+  height: 18px;
+  position: absolute;
+  right: -6.8%;
+  top: 18px;
+  width: 18px;
+  z-index: 20;
+}
+
+.timeline .note:nth-of-type(2n) {
+  clear: right;
+  float: right;
+}
+
+.timeline .note:nth-of-type(2n):after {
+  left: -6.8%;
+}
+
+.timeline .note:nth-of-type(2n) .arrow {
+  left: -1.6%;
+  right: auto;
+  -moz-transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  transform: rotate(180deg);
+}
+
+.timeline .note:hover {
+  background: none repeat scroll 0 0 #fff;
+}
+
+.timeline .note:hover h4 {
+  color: #707070;
+}
+
+.timeline .note:hover p {
+  color: #767676;
+}
+
+.timeline .note:hover:after {
+  background: none repeat scroll 0 0 #474D5D;
+  border: 2px solid #666666;
+}
+
+.timeline .note:hover .arrow {
+  color: #fff;
+}

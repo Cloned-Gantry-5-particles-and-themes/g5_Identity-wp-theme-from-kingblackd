@@ -1,0 +1,27 @@
+/* ##### EFFECT ##### */
+.item_top {
+	top: -30px;
+	opacity: 0;
+	position: relative;
+}
+.item_bottom {
+	bottom: -30px;
+	opacity: 0;
+	position: relative;
+}
+.item_left {
+	left: -60px;
+	opacity: 0;
+	position: relative;
+}
+.item_right {
+	right: -60px;
+	opacity: 0;
+	position: relative;
+}
+.item_fade_in {
+	opacity: 0;
+	position: relative;
+	padding-left: 0px;
+	right: 0px;
+}

@@ -1,0 +1,16 @@
+#g-jobTitle {
+    background: $jobtitle-background;
+    color: $jobtitle-text-color;
+    padding: $section-padding 0;
+
+    a.btn {
+    margin: 20px 7px 0px 7px;
+}
+}
+
+@media print {
+    #g-jobTitle {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

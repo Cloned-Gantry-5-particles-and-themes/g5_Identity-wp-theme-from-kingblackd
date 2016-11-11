@@ -1,0 +1,108 @@
+favicon: 'gantry-media://img/ico-16.ico'
+touchicon: 'gantry-media://img/ico-144.png'
+css:
+  -
+    location: 'gantry-assets://css/animate.css'
+    inline: ''
+    extra: {  }
+    priority: '0'
+    name: Animate
+javascript:
+  -
+    location: 'https://code.jquery.com/jquery-2.2.4.js'
+    inline: ''
+    in_footer: '0'
+    extra: {  }
+    priority: '0'
+    name: Jquery
+  -
+    location: 'gantry-assets://js/modernizr.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: modenizer
+  -
+    location: 'https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: easyPieChart
+  -
+    location: 'gantry-assets://js/jquery-countTo.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: countTo
+  -
+    location: 'gantry-assets://js/jquery.appear.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: appear
+  -
+    location: 'gantry-assets://js/jquery.easing-1.3.pack.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: easing
+  -
+    location: 'gantry-assets://js/jquery.nicescroll.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: 'nice scroll'
+  -
+    location: 'gantry-assets://js/jquery.isotope.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: isotope
+  -
+    location: 'gantry-assets://js/jquery.parallax-1.1.3.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: parallax
+  -
+    location: 'gantry-assets://js/jquery.sticky.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: stickey
+  -
+    location: 'gantry-assets://js/jquery.validate.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: validate
+  -
+    location: 'gantry-assets://js/respond.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: respond
+  -
+    location: 'gantry-assets://js/smoothscroll.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: 'smooth scroll'
+  -
+    location: 'gantry-assets://js/script.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: script

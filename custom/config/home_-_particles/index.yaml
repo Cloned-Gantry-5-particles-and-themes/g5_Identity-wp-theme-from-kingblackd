@@ -1,0 +1,52 @@
+name: home_-_particles
+timestamp: 1478372904
+version: 7
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1478189119
+positions: {  }
+sections:
+  navigation: Navigation
+  about: About
+  portfolio: Portfolio
+  skills: Skills
+  job-title: Job-title
+  experience: Experience
+  testimonials: Testimonials
+  process: Process
+  maincontent-bottom: Maincontent-bottom
+  header: Header
+  mainbar: Mainbar
+  sidebar: Sidebar
+  footer: Footer
+  offcanvas: Offcanvas
+particles:
+  logo:
+    logo-9608: 'Logo / Image'
+    logo-9571: 'Logo / Image'
+  menu:
+    menu-6409: Menu
+  social:
+    social-3171: Social
+  owlcarousel:
+    owlcarousel-2455: 'Owl Carousel'
+  custom:
+    custom-5807: About
+    custom-3119: Portfolio
+    custom-6355: 'Develop CMS themes quickly'
+    custom-7658: Process
+    custom-1071: Process
+  contenttabs:
+    contenttabs-3854: Skills
+  contentcubes:
+    contentcubes-7850: 'Job Title'
+  copyright:
+    copyright-1736: Copyright
+  horizontalmenu:
+    horizontalmenu-9034: 'Horizontal Menu'
+  totop:
+    totop-8670: 'To Top'
+  mobile-menu:
+    mobile-menu-5697: Mobile-menu
+inherit: {  }

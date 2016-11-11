@@ -1,0 +1,9 @@
+context:
+  -
+    is_front_page: true
+menu: {  }
+post:
+  page:
+    21: true
+taxonomy: {  }
+archive: {  }

@@ -1,0 +1,32 @@
+name: Profile Image
+description: A picture of your beutiful self.
+type: particle
+icon: fa-file-image-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    image:
+      type: input.imagepicker
+      label: Image
+      description: Select desired logo image.
+
+    name:
+      type: input.text
+      label: Name
+      description: Input logo description text.
+
+    title:
+      type: input.text
+      label: Job Title
+      description: Input logo description text.
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: Set a specific CSS class for custom styling.

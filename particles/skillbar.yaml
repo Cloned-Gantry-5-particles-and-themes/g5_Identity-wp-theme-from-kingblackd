@@ -1,0 +1,31 @@
+name: Skill Bar Graph
+description: Display a SkillBar.
+type: particle
+icon: fa-star-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    items:
+      type: collection.list
+      array: true
+      label: Content Items
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .title:
+          type: input.text
+          label: Title
+          description: Customize the title text.
+          placeholder: 'Enter title'
+        .percent:
+          type: input.number
+          label: Percentage
+          description: Enter the value.

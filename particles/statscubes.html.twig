@@ -1,0 +1,62 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+  <div class="facts {{ particle.class|e }}">
+    <!-- some information list -->
+    <ul class="fa-ul">
+        {% if particle.dob %}
+            <li>
+                <i class="fa fa-calendar"></i>
+                <strong>Birthdate: </strong>{{ particle.dob }}
+						</li>
+        {% endif %}
+        {% if particle.phone %}
+            <li>
+                <i class="fa fa-mobile"></i>
+                <strong>Phone: </strong>{{ particle.phone }}
+						</li>
+        {% endif %}
+        {% if particle.email %}
+            <li>
+                <i class="fa fa-envelope-o"></i>
+                <strong>Email: </strong>{{ particle.email }}
+						</li>
+        {% endif %}
+        {% if particle.address %}
+            <li>
+                <i class="fa fa-home"></i>
+                <strong>Adress: </strong>{{ particle.address }}
+						</li>
+        {% endif %}
+    </ul>
+    <!-- ./some information list -->
+
+    <!-- some number facts -->
+    <div class="number-counters center new-line">
+
+        {% if particle.items %}
+            <div class="number-facts-wrapper">
+
+                {% for item in particle.items %}
+                    <div class="counters-item">
+                        {% if item.icon %}
+                            <i class="{{ item.icon }}"></i>
+                        {% endif %}
+                        {% if item.value %}
+                            <strong data-to="{{ item.value|e }}">0</strong>
+                        {% endif %}
+                        {% if item.label %}
+                            <p>{{ item.label|e }}</p>
+                        {% endif %}
+                    </div>
+                {% endfor %}
+
+            </div>
+        {% endif %}
+
+    </div>
+    <!-- ./some number facts -->
+  </div>
+
+{% endblock %}

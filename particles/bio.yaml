@@ -1,0 +1,43 @@
+name: Mini Bio
+description: Some text about yourself.
+type: particle
+icon: fa-user
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Display a Profile picture.
+      default: true
+
+    title:
+      type: input.text
+      label: 'Quote Line'
+      description: Input logo description text.
+
+    text:
+      type: textarea.textarea
+      label: Text
+      description: Input logo description text.
+      overridable: false
+
+    image:
+      type: input.imagepicker
+      label: Signature
+      description: add your signature.
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: Set a specific CSS class for custom styling.
+
+    twig:
+       type: input.checkbox
+       label: Process Twig
+       description: Enable Twig template processing in the content. Twig will be processed before shortcodes.
+
+    filter:
+      type: input.checkbox
+      label: Process shortcodes
+      description: Enable shortcode processing / filtering in the content.

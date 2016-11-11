@@ -1,0 +1,35 @@
+name: Section Title
+description: Display Owl Carousel.
+type: particle
+icon: fa-book
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    title:
+      type: input.text
+      label: First Half
+      description: First Half.
+      placeholder: 'Enter First Half'
+
+    label:
+      type: input.text
+      label: Second Half
+      description: Second Half.
+      placeholder: 'Enter Second Half'
+
+    .icon:
+      type: input.icon
+      label: Icon
+      description: Input the icon.
+      default: ''
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.

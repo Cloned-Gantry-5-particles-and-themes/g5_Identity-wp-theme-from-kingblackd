@@ -1,0 +1,48 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <div class="{{ particle.class|e }}">
+        <!-- some information list -->
+        {% if particle.icon %}
+            <div>
+                <i class="{{ particle.icon|raw }}"></i>
+            </div>
+        {% endif %}
+        {% if particle.title %}
+            <div>
+                <i class="fa fa-calendar"></i>
+                <strong>name:
+                </strong>{{ particle.title|raw }}
+            </div>
+        {% endif %}
+        {% if particle.email %}
+            <div>
+                <i class="fa fa-envelope-o"></i>
+                <strong>Email:
+                </strong>{{ particle.email|raw }}
+            </div>
+        {% endif %}
+        {% if particle.address %}
+            <div>
+                <i class="fa fa-home"></i>
+                <strong>Adress:
+                </strong>{{ particle.address|raw }}
+            </div>
+        {% endif %}
+        {% if particle.phone %}
+            <div>
+                <i class="fa fa-mobile"></i>
+                <strong>Primary Phone:
+                </strong>{{ particle.phone|raw }}
+            </div>
+        {% endif %}
+        {% if particle.phone2 %}
+            <div>
+                <i class="fa fa-mobile"></i>
+                <strong>Secondary Phone:
+                </strong>{{ particle.phone2|raw }}
+            </div>
+        {% endif %}
+    </div>
+{% endblock %}

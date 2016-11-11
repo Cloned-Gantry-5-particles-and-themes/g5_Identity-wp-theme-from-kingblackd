@@ -1,0 +1,26 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <div class="{{ particle.class|e }}">
+        <ol class="process-flow list-unstyled">
+            {% for item in particle.items %}
+                <li class="active">
+                    <div class="process-node active">
+                        {% if item.icon %}
+                            <i class="{{ item.icon }}"></i>
+                        {% endif %}
+                    </div>
+                    <h4>{{ item.title }}</h4>
+                    <p>{{ item.desc }}</p>
+                    {% if not loop.last %}
+                        <div class="line">
+                            <div class="progress"></div>
+                        </div>
+                    {% endif %}
+                </li>
+            {% endfor %}<li class="clear"></li>
+        </ol>
+    </div>
+
+{% endblock %}

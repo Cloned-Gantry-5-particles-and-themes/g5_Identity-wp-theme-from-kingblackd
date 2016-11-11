@@ -1,0 +1,632 @@
+version: 2
+preset:
+  image: 'gantry-admin://images/layouts/default.png'
+  name: home_-_particles
+  timestamp: 1478189119
+layout:
+  /navigation/:
+    -
+      - 'logo-9608 20'
+      - 'menu-6409 80'
+  /header/:
+    -
+      - owlcarousel-2455
+  /about/:
+    -
+      - sectiontitle-6772
+    -
+      - 'profile-4138 33'
+      - 'bio-4926 34'
+      - 'statscubes-6326 33'
+    -
+      - custom-9799
+  /portfolio/:
+    -
+      - sectiontitle-4130
+    -
+      - isotope-4854
+  /skills/:
+    -
+      - sectiontitle-7889
+    -
+      - 'skillchart-5713 16.7'
+      - 'skillchart-3634 16.7'
+      - 'skillchart-9262 16.7'
+      - 'skillchart-1146 16.7'
+      - 'skillchart-6806 16.7'
+      - 'skillchart-1002 16.7'
+    -
+      - 'skillbar-9825 50'
+      - 'skillbar-2264 50'
+  /jobTitle/:
+    -
+      - career-4984
+  /experience/:
+    -
+      - sectiontitle-7106
+    -
+      - timeline-4115
+  /testimonials/:
+    -
+      - sectiontitle-8354
+    -
+      - custom-1231
+    -
+      - owlcarousel-7694
+    -
+      - owlcarousel-3535
+    -
+      - custom-9050
+  /process/:
+    -
+      - sectiontitle-7352
+    -
+      - processflow-5648
+  /container-main/:
+    -
+      -
+        'mainbar 75':
+          -
+            - system-messages-9954
+          -
+            - sectiontitle-2639
+          -
+            - social-8515
+          -
+            - contactdetails-5862
+      -
+        'sidebar 25': {  }
+  /maincontent-bottom/:
+    -
+      - custom-8220
+  /footer/:
+    -
+      - logo-9571
+    -
+      - copyright-1736
+    -
+      - totop-8670
+  /offcanvas/:
+    -
+      - mobile-menu-5697
+structure:
+  navigation:
+    type: section
+    attributes:
+      boxed: ''
+      class: navbar-transparent
+  header:
+    attributes:
+      boxed: ''
+      class: g-flushed
+  about:
+    type: section
+    attributes:
+      boxed: ''
+  portfolio:
+    type: section
+    attributes:
+      boxed: ''
+  skills:
+    type: section
+    attributes:
+      boxed: ''
+      class: ''
+  jobTitle:
+    type: section
+    attributes:
+      boxed: ''
+  experience:
+    type: section
+    attributes:
+      boxed: ''
+  testimonials:
+    type: section
+    attributes:
+      boxed: ''
+      class: 'clients parallax'
+  process:
+    type: section
+    attributes:
+      boxed: ''
+  mainbar:
+    type: section
+    subtype: main
+    attributes:
+      class: ''
+    block:
+      variations: center
+  sidebar:
+    type: section
+    subtype: aside
+  container-main:
+    attributes:
+      boxed: ''
+  maincontent-bottom:
+    type: section
+    attributes:
+      boxed: '2'
+      class: ''
+  footer:
+    attributes:
+      boxed: ''
+      class: center
+  offcanvas:
+    attributes:
+      boxed: ''
+content:
+  logo-9608:
+    title: 'Logo / Image'
+    attributes:
+      image: 'gantry-media://2014/09/logo.png'
+      svg: ''
+      class: ''
+  menu-6409:
+    block:
+      class: smallpadding-content
+  owlcarousel-2455:
+    title: 'Owl Carousel'
+    attributes:
+      variation2: '1'
+      dots: disable
+      items:
+        -
+          image: 'gantry-media://header/img01.png'
+          title: 'Jonathan Doe'
+          desc: 'Welcome To My Site'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'Item 1'
+        -
+          image: 'gantry-media://header/img02.png'
+          title: 'FrontEnd Developer'
+          desc: 'Creative - Professional - Passionate'
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'Item 2'
+    block:
+      variations: title1
+  sectiontitle-6772:
+    title: 'Section Title'
+    attributes:
+      title: About
+      label: Me
+      icon: 'fa fa-user fa-2x'
+    block:
+      variations: center
+  profile-4138:
+    title: 'Profile Image'
+    attributes:
+      image: 'gantry-media://2014/09/freelancer.png'
+      name: 'JONATHAN DOE'
+      title: 'UI/UX Designer'
+  bio-4926:
+    title: 'Mini Bio'
+    attributes:
+      title: 'Be who you are and say what you feel, because those who mind don’t matter, and those who matter don’t mind.'
+      text: "Hello, I’m a UI/UX Designer & Front End Developer from Dhaka, Bangladesh. I hold a master degree of Web Design from the St. Patrick University.\n</br>\nI currently work at Intel, where I spend most of my time crafting and working on awesome projects. Lorem ipsum dolor sit amet consectetuer Integer eleifend Curabitur id ut. Quisque Aenean ut pede id elit ligula est mollis sapien magna. Urna turpis quis sagittis at ac Sed augue habitant tortor elit. Dolor Quisque et elit aliquam vitae habitant."
+      image: 'gantry-media://signature.png'
+      twig: '1'
+  statscubes-6326:
+    title: 'Stats Cubes'
+    attributes:
+      dob: '2016-11-09'
+      phone: '4165982122'
+      email: zedsdas@msn.ca
+      address: '123 abc st.'
+      items:
+        -
+          icon: 'fa fa-group fa-2x'
+          label: 'Happy Clients'
+          value: '150'
+          name: Clients
+        -
+          icon: 'fa fa-flag fa-2x'
+          label: 'Year Experience'
+          value: '7'
+          name: Exp
+        -
+          icon: 'fa fa-trophy fa-2x'
+          label: 'Awards Won'
+          value: '13'
+          name: Awards
+        -
+          icon: 'fa fa-thumbs-up fa-2x'
+          label: 'Projects Done'
+          value: '520'
+          name: Projects
+  custom-9799:
+    title: Services
+    attributes:
+      html: "<div class=\"g-grid services\">\n\t\t<div class=\"g-block size-33-3\">\n\t\t\t<!-- Service -->\n\t\t\t<div class=\"services-box new-line item_left\">\n\t\t\t\t<h4>Customer Support</h4>\n\t\t\t\t<div class=\"services-box-icon\">\n\t\t\t\t\t<i class=\"fa fa-smile-o fa-3x\"></i>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"service-box-info\">\n\t\t\t\t\t<p>\n\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- End Service -->\n\t\t</div>\n\t\t<div class=\"g-block size-33-3\">\n\t\t\t<!-- Service -->\n\t\t\t<div class=\"services-box new-line item_bottom\">\n\t\t\t\t<h4>Web Design</h4>\n\t\t\t\t<div class=\"services-box-icon\">\n\t\t\t\t\t<i class=\"fa fa-html5 fa-3x\"></i>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"service-box-info\">\n\t\t\t\t\t<p>\n\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- End Service -->\n\t\t</div>\n\t\t<div class=\"g-block size-33-3 clearfix\">\n\t\t\t<!-- Service -->\n\t\t\t<div class=\"services-box new-line item_right\">\n\t\t\t\t<h4>Wordpress Themes</h4>\n\t\t\t\t<div class=\"services-box-icon\">\n\t\t\t\t\t<i class=\"fa fa-link fa-3x\"></i>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"service-box-info\">\n\t\t\t\t\t<p>\n\t\t\t\t\t\tLorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque rutrum pellesque imperdiet. Nulla lacinia iaculis nulla.\n\t\t\t\t\t</p>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t\t<!-- End Service -->\n\t\t</div>"
+  sectiontitle-4130:
+    title: 'Section Title'
+    attributes:
+      title: 'My Recent'
+      label: Readings
+      icon: 'fa fa-book fa-2x'
+      class: white
+    block:
+      class: center
+  isotope-4854:
+    title: Portfolio
+    attributes:
+      items:
+        -
+          filters: 'tommy zed'
+          image: 'gantry-media://photo.jpg'
+          icon: 'fa fa-align-justify'
+          title: dasdad
+          label: 'Projects Done'
+          name: 'New item'
+  sectiontitle-7889:
+    title: 'Section Title'
+    attributes:
+      title: My
+      label: Skills
+      icon: 'fa fa-bar-chart fa-2x'
+    block:
+      class: center
+  skillchart-5713:
+    title: 'Circle Graph'
+    attributes:
+      title: Photoshop
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '91'
+  skillchart-3634:
+    title: 'Circle Graph'
+    attributes:
+      title: Illustrator
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '60'
+  skillchart-9262:
+    title: 'Circle Graph'
+    attributes:
+      title: HTML
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '70'
+  skillchart-1146:
+    title: 'Circle Graph'
+    attributes:
+      title: CSS
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '80'
+  skillchart-6806:
+    title: jQuery
+    attributes:
+      title: jQuery
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '65'
+  skillchart-1002:
+    title: PHP
+    attributes:
+      title: PHP
+      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
+      percent: '85'
+  skillbar-9825:
+    title: SkillBar
+    attributes:
+      items:
+        -
+          title: ''
+          percent: '80'
+          name: Creative
+        -
+          title: ''
+          percent: '90'
+          name: Leadership
+        -
+          title: ''
+          percent: '70'
+          name: 'Interpersonal Communication'
+  skillbar-2264:
+    title: SkillBar
+    attributes:
+      items:
+        -
+          title: ''
+          percent: '80'
+          name: English
+        -
+          title: 'French '
+          percent: '60'
+          name: French
+        -
+          title: 'Spanish '
+          percent: '99'
+          name: Spanish
+    block:
+      class: 'nomargintop-mobile nopaddingtop-mobile'
+  career-4984:
+    attributes:
+      label: 'I am available for'
+      title: Freelancer
+      linktxt: 'Hire Me'
+      link: '#g-container-main'
+      location: 'gantry-media://Mikhail Johnson Resume 2016.pdf'
+    block:
+      variations: center
+  sectiontitle-7106:
+    title: 'Section Title'
+    attributes:
+      title: my
+      label: experience
+      icon: 'fa fa-graduation-cap  fa-2x'
+    block:
+      class: center
+  timeline-4115:
+    attributes:
+      items:
+        -
+          section: present
+          title: 'Creative Agency'
+          label: 'Project Manager'
+          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
+          startdate: 2013-12
+          enddate: 2016-11
+          current: 'yes'
+          name: 'Creative Agency'
+        -
+          section: present
+          title: Infosys
+          label: 'UI/UX Designer'
+          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
+          startdate: 2010-06
+          enddate: 2013-11
+          current: 'no'
+          name: Infosys
+        -
+          section: education
+          title: 'Master Degree of Computer Science'
+          label: 'Oxford University'
+          desc: 'This is Photoshop''s version Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          startdate: 2012-01
+          enddate: 2013-01
+          current: 'no'
+          name: 'Master Degree of Computer Science'
+        -
+          section: present
+          title: 'Micro Web Planet'
+          label: 'Web Developer'
+          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat. Photoshop''s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, quis bibendum auctor, nisi elit consequat.'
+          startdate: 2012-01
+          enddate: 2012-05
+          current: 'no'
+          name: 'Micro Web Planet'
+        -
+          section: present
+          title: 'Creative Solution'
+          label: 'Web Designer'
+          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
+          startdate: 2011-01
+          enddate: 2012-12
+          current: 'no'
+          name: 'Creative Solution'
+        -
+          section: education
+          title: 'Bechelor Degree of Computer Science'
+          label: 'Oxford University'
+          desc: 'Lorem Ipsum. This is Photoshop''s version Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          startdate: 2007-02
+          enddate: 2011-02
+          current: 'no'
+          name: 'Bechelor Degree of Computer Science'
+  sectiontitle-8354:
+    title: 'Section Title'
+    attributes:
+      title: My
+      label: Clients
+      icon: 'fa fa-users fa-2x'
+      class: white
+    block:
+      class: center
+  custom-1231:
+    title: 'Custom HTML'
+    attributes:
+      enabled: 0
+      html: '<div class="parallax-overlay">'
+  owlcarousel-7694:
+    title: 'What clients Say'
+    attributes:
+      title: 'What my clients are saying'
+      dots: enable
+      autoplay: disable
+      imageOverlay: disable
+      items:
+        -
+          image: ''
+          title: ''
+          desc: "<p class=\"quote\">\"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jak Doe</p>\n\t\t\t\t                \t<p class=\"company\">CEO <a href=\"#\">@Intel</a></p>"
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'Jak Doe'
+        -
+          image: ''
+          title: ''
+          desc: "<p class=\"quote\">\"My website couldn’t look better after working with the him on the redesign. Now my site and corporate\tbranding is outstanding! He is awesome.\"</p>\n\t\t\t\t                \t<p class=\"author\">John Doe</p>\n\t\t\t\t                \t<p class=\"company\">Manager <a href=\"#\">@Web Planet</a></p>"
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'John Doe'
+        -
+          image: ''
+          title: ''
+          desc: "<p class=\"quote\">\"I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jane Doe</p>\n\t\t\t\t                \t<p class=\"company\">Owner <a href=\"#\">@Creative Agency</a></p>\t"
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: 'Jane Doe'
+  owlcarousel-3535:
+    title: 'Owl Carousel'
+    attributes:
+      title: 'Some of <strong>my clients</strong>'
+      nav: enable
+      items:
+        -
+          image: 'gantry-media://images/clients/twitter.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: Twitter
+        -
+          image: 'gantry-media://clients/magento.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: Magento
+        -
+          image: 'gantry-media://clients/mailchimp.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: MailChimp
+        -
+          image: 'gantry-media://clients/nexternal.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: Nexternal
+        -
+          image: 'gantry-media://images/clients/wordpress.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: Wordpress
+        -
+          image: 'gantry-media://clients/google.png'
+          title: ''
+          desc: ''
+          link: ''
+          linktext: ''
+          buttonclass: button-outline
+          name: Google
+  custom-9050:
+    title: 'Custom HTML'
+    attributes:
+      enabled: 0
+      html: '</div>'
+  sectiontitle-7352:
+    title: 'Section Title'
+    attributes:
+      title: 'my '
+      label: process
+      icon: 'fa fa-gears fa-2x'
+      class: white
+    block:
+      variations: center
+  processflow-5648:
+    title: 'Process Flow'
+    attributes:
+      items:
+        -
+          icon: 'fa fa-comments'
+          title: Discussion
+          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          name: Discussion
+        -
+          icon: 'fa fa-lightbulb-o'
+          title: Idea
+          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          name: Idea
+        -
+          icon: 'fa fa-desktop'
+          title: Implementation
+          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          name: Implementation
+        -
+          icon: 'fa fa-flash'
+          title: Review
+          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          name: Review
+        -
+          icon: 'fa fa-rocket'
+          title: Deliver
+          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          name: Deliver
+    block:
+      variations: 'nomarginall nopaddingall'
+      extra:
+        -
+          style: 'clear:both'
+  sectiontitle-2639:
+    title: 'Section Title'
+    attributes:
+      title: 'get in '
+      label: touch
+      icon: 'fa fa-envelope fa-2x'
+    block:
+      variations: center
+  social-8515:
+    attributes:
+      display: icons_only
+      items:
+        -
+          icon: 'fa fa-facebook-square fa-fw fa-3x'
+          text: facebook
+          link: 'http://www.facebook.com/'
+          name: Facebook
+        -
+          icon: 'fa fa-twitter-square fa-fw fa-3x'
+          text: twitter
+          link: 'http://www.twitter.com/'
+          name: Twitter
+        -
+          icon: 'fa fa-google-plus-square fa-fw fa-3x'
+          text: 'google plus'
+          link: 'https://plus.google.com/'
+          name: Google+
+        -
+          icon: 'fa fa-linkedin-square fa-fw fa-3x'
+          text: linkedin
+          link: linkedin.com
+          name: LinkedIn
+        -
+          icon: 'fa fa-pinterest-square fa-fw fa-3x'
+          text: pintrest
+          link: pintrest.com
+          name: Pintrest
+        -
+          icon: 'fa fa-vimeo-square fa-fw fa-3x'
+          text: vimeo
+          link: vimeo.com
+          name: Vimeo
+  contactdetails-5862:
+    title: 'Contact Details'
+    attributes:
+      address: '12 Segun Bagicha, 10th Floor <br> Dhaka, Bangladesh'
+      phone: '+1 343-234-4343'
+      phone2: '+0 243-243-4243'
+      email: john@aol.com
+      icon: 'fa fa-map-marker fa-2x'
+  custom-8220:
+    title: 'Custom HTML'
+    attributes:
+      html: "<div id=\"map_canvas\" class=\"item_fade_in\">\n</div>\n<script src=\"{{ url('gantry-assets://js/gmap-settings.js') }}\"></script>\n<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyB8V0N2cjoXP81sg8po9HBimuix1j2o_xc&callback=initMap\"\n  type=\"text/javascript\"></script>\n"
+      twig: '1'
+  logo-9571:
+    title: 'Logo / Image'
+  copyright-1736:
+    block:
+      variations: 'nopaddingall nomarginall'
+  totop-8670:
+    title: 'To Top'
+    attributes:
+      css:
+        class: ''
+      icon: 'fa fa-angle-up fa-2x'
+      content: ''
+    block:
+      variations: 'nopaddingall nomarginall'

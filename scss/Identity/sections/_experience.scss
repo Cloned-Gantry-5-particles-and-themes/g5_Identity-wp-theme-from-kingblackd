@@ -1,0 +1,12 @@
+#g-experience {
+    background: $experience-background;
+    color: $experience-text-color;
+    padding: $section-padding 0;
+}
+
+@media print {
+    #g-experience {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

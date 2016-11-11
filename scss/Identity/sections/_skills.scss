@@ -1,0 +1,11 @@
+#g-skills {
+  background: $skills-background;
+  color: $skills-text-color;
+  padding: $section-padding 0;
+}
+@media print {
+  #g-skills {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}

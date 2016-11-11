@@ -1,0 +1,12 @@
+#g-portfolio {
+    background: $portfolio-background;
+    color: $portfolio-text-color;
+    padding: $section-padding 0;
+}
+
+@media print {
+    #g-portfolio {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

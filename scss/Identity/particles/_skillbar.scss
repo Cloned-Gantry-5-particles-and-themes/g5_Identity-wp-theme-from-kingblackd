@@ -1,0 +1,68 @@
+/* ---------- Skills Details ------------*/
+.chart {
+    display: inline-block;
+    height: 150px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    position: relative;
+    text-align: center;
+    width: 150px;
+}
+.chart canvas {
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+.percent {
+    display: inline-block;
+    line-height: 150px;
+    z-index: 2;
+    font-size:1.6em;
+}
+.percent:after {
+    content: "%";
+    font-size: 0.8em;
+    margin-left: 0.1em;
+}
+.skillBar {
+    margin-left: -40px;
+    margin-top: 0;
+    text-align: left !important;
+}
+.skillBar li {
+    list-style: none outside none;
+}
+.skillBar li:last-child span {
+    margin-bottom: 0;
+}
+.skillBar li .skillBg {
+    background: none repeat scroll 0 0 #CCCCCC;
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+.skillBar li span {
+    border-radius: 0px 15px 15px 0px;
+    -webkit-border-radius: 0px 15px 15px 0px;
+    display: block;
+    height: 36px;
+    width: 0;
+}
+.skillBar li p {
+    padding-bottom: 2px;
+}
+.skillBar li span {
+    overflow: visible !important;
+    position: relative;
+}
+.skillBar li span strong {
+    color: #FFFFFF;
+    display: block;
+    left: 12px;
+    line-height: 12px !important;
+    position: absolute;
+    top: 12px;
+    white-space: nowrap;
+}
+.skillBar li span {
+    background-color: #474D5D;
+}

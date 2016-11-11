@@ -1,0 +1,21 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+		<div class="resume {{ particle.class|e }}">
+
+			{% if particle.label %}
+		   <h1>{{ particle.label }}
+          {% if particle.title %}
+            <strong> {{ particle.title }}</strong>
+          {% endif %}
+        </h1>
+        {% elseif not particle.label or particle.title %}
+        <h1><strong> {{ particle.title }}</strong></h1>
+      {% endif %}
+
+				<a href="{{ particle.link|default('_self')|e }}" class="scroll btn btn-trans btn-border-w btn-large {{ particle.btnclass|e }}"> {{ particle.linktxt|raw }}</a>&nbsp;&nbsp;<a class="btn btn-primary btn-lg" href="{{ url(particle.location) }}"><i class="fa fa-download"></i> Download Resume</a>
+
+		</div>
+
+{% endblock %}

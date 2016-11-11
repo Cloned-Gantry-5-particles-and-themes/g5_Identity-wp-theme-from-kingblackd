@@ -1,0 +1,22 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+    {% set image = url(particle.image) %}
+
+    <div class="profile {{ particle.class|e }}">
+      {% if image %}
+          <img src="{{ url(particle.image) }}" alt="{{ particle.name }}" />
+      {% endif %}
+			<!-- YOUR PHOTO -->
+      {% if particle.name %}
+      <div class="name-title">
+      <h2>{{ particle.name }}</h2>
+      <!-- Your Name -->
+      {% if particle.title %}
+      <h5>{{ particle.title }}</h5>
+      <!-- Your Designation -->
+      {% endif %}
+      </div>
+      {% endif %}
+		</div>
+{% endblock %}

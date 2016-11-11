@@ -1,0 +1,167 @@
+/*##CLIENTS##*/
+.clients {
+    position: relative;
+    text-align: center;
+}
+
+.carrousel-container {
+    height: 150px;
+    overflow: hidden;
+    width: 100%;
+}
+#left_scroll {
+    display: inline-block;
+    float: left;
+    height: 150px;
+    text-align: left;
+    width: 8.33333%;
+}
+#left_scroll a {
+    background: url("../img/left-arrow.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 150px;
+    opacity: 0.7;
+    transition: all 0.2s ease-out 0s;
+    width: 100%;
+}
+#left_scroll a:hover {
+    background-position: left center;
+    opacity: 1;
+}
+#right_scroll {
+    display: inline-block;
+    float: left;
+    height: 100px;
+    width: 8.33333%;
+}
+#right_scroll a {
+    background: url("../img/right-arrow.png") no-repeat scroll center center rgba(0, 0, 0, 0);
+    display: inline-block;
+    height: 150px;
+    opacity: 0.7;
+    outline: medium none;
+    transition: all 0.2s ease-out 0s;
+    width: 100%;
+}
+#right_scroll a:hover {
+    background-position: right center;
+    opacity: 1;
+}
+#carousel_inner {
+    float: left;
+    margin-bottom: 30px;
+    opacity: 0.85;
+    overflow: hidden;
+    width: 83.3333%;
+}
+#carousel_inner #carousel_ul {
+    display: inline-block;
+    left: -100px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 9999px;
+}
+#carousel_inner #carousel_ul li {
+    display: inline-table;
+    float: left;
+    height: 150px;
+    margin-right: 0;
+    margin-top: -20px;
+    opacity: 0;
+    width: 249px;
+}
+#carousel_inner #carousel_ul li a {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+#carousel_inner #carousel_ul li span {
+    display: table-cell;
+    height: 100%;
+    vertical-align: middle;
+    width: 100%;
+}
+#carousel_inner #carousel_ul li img {
+    display: table-cell;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+#carousel_inner #carousel_ul .animated-carousel-li {
+    margin-top: 0;
+    opacity: 1;
+    transition: all 0.6s ease-out 0s;
+}
+
+.swiper-testimonial {
+    backface-visibility: hidden;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+.swiper-slide {
+    float: left;
+    color:#fff;
+}
+.swiper-slide .author{
+ margin:0px 0px 6px 0px;
+ font-weight: bold;
+}
+.swiper-slide .company a{
+    color:#fff;
+}
+.pagination {
+    position: absolute;
+    text-align: center;
+    top: 82px;
+    width: 100%;
+    z-index: 20;
+}
+.swiper-pagination-switch {
+    background: none repeat scroll 0 0 #544B43;
+    border-radius: 20px;
+    box-shadow: none;
+    cursor: pointer;
+    display: inline-block;
+    height: 11px;
+    margin: 0 6px;
+    text-indent: -9999px;
+    width: 11px;
+}
+.swiper-pagination-switch:hover {
+    background: none repeat scroll 0 0 #685C52;
+}
+.swiper-visible-switch {
+    background: none repeat scroll 0 0 #AAAAAA;
+}
+.swiper-active-switch {
+    background: none repeat scroll 0 0 #BFB7B0;
+}
+.swiper-testimonial, .swiper-testimonial .swiper-slide {
+    height: 100%;
+    max-height: 200px;
+    max-width: 585px;
+    width: 100%;
+}
+.pagination-testimonial {
+    position: absolute;
+    text-align: center;
+    top: 170px;
+    width: 100%;
+    z-index: 20;
+}
+.pagination-testimonial .swiper-pagination-switch {
+    background: none repeat scroll 0 0 #D8D8D8;
+}
+.pagination-testimonial .swiper-pagination-switch:hover {
+    background: none repeat scroll 0 0 #333333;
+}
+.pagination-testimonial .swiper-visible-switch {
+    background: none repeat scroll 0 0 #262626;
+}
+.pagination-testimonial .swiper-active-switch {
+    background: none repeat scroll 0 0 #262626;
+}

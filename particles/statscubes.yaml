@@ -1,0 +1,64 @@
+name: Stats Cubes
+description: Display content in side-by-side cubes.
+type: particle
+icon: fa-cube
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable the particle.
+      default: true
+
+    dob:
+      type: input.date
+      label: Birthdate
+      description: When were you born?
+      placeholder: Enter your Birthdate
+
+    phone:
+      type: input.tel
+      label: Phone
+      description: Your phone number.
+      placeholder: Enter your phone number
+
+    email:
+      type: input.email
+      label: Email
+      description: Your Email.
+      placeholder: Enter your Email
+
+    address:
+      type: input.text
+      label: Address
+      description: Your address.
+      placeholder: Enter your address
+
+    items:
+      type: collection.list
+      array: true
+      label: Content Items
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .icon:
+          type: input.icon
+          label: Icon
+          description: Input the icon.
+          default: ''
+        .label:
+          type: input.text
+          label: Label
+          description: Enter the label that appears on the bottom.
+        .value:
+          type: input.number
+          label: Value
+          description: Enter the value of the label.
+
+    class:
+      type: input.text
+      label: CSS Classes
+      description: CSS class name for the particle.

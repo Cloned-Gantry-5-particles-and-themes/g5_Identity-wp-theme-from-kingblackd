@@ -1,0 +1,68 @@
+name: Portfolio
+description: Display a Portfolio Filter.
+type: particle
+icon: fa-folder-open-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    title:
+      type: input.text
+      label: Title
+      description: Customize the title text.
+      placeholder: 'Enter title'
+
+    filters:
+      type: collection.list
+      array: true
+      label: Portfolio filters
+      description: Create each filter item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .title:
+          type: input.text
+          label: Name
+          description: filter for the particle.
+
+    items:
+      type: collection.list
+      array: true
+      label: Portfolio Items
+      description: Create each Owl Carousel item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .filters:
+          type: input.selectize
+          label: Aplicable filters
+          description: filters for the particle item.
+        .image:
+          type: input.imagepicker
+          label: Image
+          description: Select desired image.
+        .icon:
+          type: input.icon
+          label: Icon
+          description: add an icon.
+        .title:
+          type: input.text
+          label: Title
+          description: Enter the title
+        .label:
+          type: input.text
+          label: Label
+          description: Customize the Label.
+          placeholder: Photo / Web

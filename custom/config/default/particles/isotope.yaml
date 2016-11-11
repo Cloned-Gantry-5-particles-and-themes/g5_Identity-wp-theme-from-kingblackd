@@ -1,0 +1,17 @@
+enabled: '1'
+class: ''
+title: ''
+filters:
+  -
+    foption: tommy
+    name: tommy
+  -
+    foption: ''
+    name: zed
+  -
+    foption: ''
+    name: can
+  -
+    foption: ''
+    name: ed
+items: {  }

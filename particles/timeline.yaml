@@ -1,0 +1,63 @@
+name: Timeline
+description: Display a timeline.
+type: particle
+icon: fa-sliders
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+
+    items:
+      type: collection.list
+      array: true
+      label: Content Items
+      description: Create each item to display.
+      value: name
+      ajax: true
+
+      fields:
+        .section:
+          type: select.select
+          label: Section
+          description: Select the section of the timeline.
+          default: present
+          options:
+            present: Present
+            education: Education
+        .title:
+          type: input.text
+          label: Title
+          description: Input the icon.
+        .label:
+          type: input.text
+          label: 'Sub Title'
+        .desc:
+          type: textarea.textarea
+          label: Description
+          description: Customize the description.
+          placeholder: Enter the description
+        .startdate:
+          type: input.month
+          label: Start Date
+          description: Enter the value of the label.
+        .enddate:
+          type: input.month
+          label: End Date
+          description: Enter the value of the label.
+        .current:
+          type: select.select
+          label: Current
+          description: Is this where you are currently?
+          default: no
+          options:
+            yes: Yes
+            no: No

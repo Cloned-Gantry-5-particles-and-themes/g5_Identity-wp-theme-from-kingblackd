@@ -1,0 +1,15 @@
+name: Job Title Styles
+description: JobTitle section styles for the Identity theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#424753"
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#ffffff"

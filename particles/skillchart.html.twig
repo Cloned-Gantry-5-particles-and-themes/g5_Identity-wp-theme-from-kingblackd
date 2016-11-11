@@ -1,0 +1,17 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <!-- Skill Section -->
+    <div class="center item_bottom">
+        <div class="chart" data-percent="{{ particle.percent }}">
+            <span class="percent">{{ particle.percent }}</span>
+            <h4>{{ particle.title }}</h4>
+            <p>
+                {{ particle.desc }}
+            </p>
+        </div>
+    </div>
+    <!-- skills end -->
+
+{% endblock %}

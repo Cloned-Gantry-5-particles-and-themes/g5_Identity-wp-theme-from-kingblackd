@@ -1,0 +1,12 @@
+attribs:
+  id: ''
+  class: 'gantry g-Identity-style'
+  extra:
+    -
+      data-spy: scroll
+    -
+      data-target: '#g-navigation'
+layout:
+  sections: '0'
+body_top: "<div class=\"mask\">\n<div id=\"intro-loader\"></div>\n</div>"
+body_bottom: ''
