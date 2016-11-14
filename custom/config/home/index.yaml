@@ -1,5 +1,5 @@
 name: home
-timestamp: 1478812999
+timestamp: 1478886737
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -11,6 +11,7 @@ sections:
   about: About
   process: Process
   skills: Skills
+  quote: Quote
   jobTitle: JobTitle
   experience: Experience
   portfolio: Portfolio
@@ -24,7 +25,6 @@ sections:
 particles:
   logo:
     logo-9608: 'Logo / Image'
-    logo-9571: 'Logo / Image'
   menu:
     menu-6409: Menu
   owlcarousel:
@@ -47,7 +47,9 @@ particles:
     statscubes-6326: 'Stats Cubes'
   custom:
     custom-9799: Services
+    custom-8705: 'Custom HTML'
     custom-8278: 'Custom HTML'
+    custom-7374: 'Custom HTML'
     custom-5538: 'Custom HTML'
     custom-8220: 'Custom HTML'
   processflow:
@@ -59,11 +61,6 @@ particles:
     skillchart-1146: 'Circle Graph'
     skillchart-6806: jQuery
     skillchart-1002: PHP
-  spacer:
-    spacer-7406: Spacer
-    spacer-9754: Spacer
-    spacer-1647: Spacer
-    spacer-8422: Spacer
   career:
     career-4984: Career
   timeline:
@@ -76,6 +73,9 @@ particles:
     social-8515: Social
   contactdetails:
     contactdetails-5862: 'Contact Details'
+  spacer:
+    spacer-1647: Spacer
+    spacer-8422: Spacer
   copyright:
     copyright-1736: Copyright
   totop:

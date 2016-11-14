@@ -60,6 +60,10 @@ portfolio:
 process:
   background: '#474d5d'
   text-color: '#ffffff'
+quote:
+  background: '#312f38'
+  background-image: 'gantry-media://img/section-bg1.jpg'
+  text-color: '#ffffff'
 skills:
   background: '#efefef'
   text-color: '#424753'
