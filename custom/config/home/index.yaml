@@ -1,5 +1,9 @@
 name: home
+<<<<<<< HEAD
+timestamp: 1478898849
+=======
 timestamp: 1478886737
+>>>>>>> fc4ff540a6647e4c83686ff73649ea06d691981a
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'

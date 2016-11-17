@@ -400,7 +400,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.eot#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff2') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff') format("woff"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.ttf') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.svg#rockettheme-apps') format("svg");
+  src: url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.eot?582634a1#iefix') format("embedded-opentype"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff2?582634a1') format("woff2"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff?582634a1') format("woff"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.ttf?582634a1') format("truetype"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.svg?582634a1#rockettheme-apps') format("svg");
 }
 /* line 4, wp-content/themes/g5_identity/scss/Identity/styles/_fonts.scss */
 i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -531,7 +531,7 @@ a:hover {
   top: 50%;
   left: 50%;
   margin: -40px 0 0 -40px;
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/preloader.gif');
+  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/preloader.gif?582634a1');
 }
 /* line 100, wp-content/themes/g5_identity/scss/Identity/styles/_core.scss */
 .section-content {
@@ -2539,7 +2539,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('//local.vcard.com/wp-content/uploads/2014/09/parallax3.jpg') no-repeat center top;
+  background: url('//local.wordpress.com/wp-content/uploads/2014/09/parallax3.jpg') no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -3651,7 +3651,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url('//local.vcard.com/owl.video.play.png') no-repeat;
+  background: url('//local.wordpress.com/owl.video.play.png') no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -4038,7 +4038,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 19, wp-content/themes/g5_identity/scss/Identity/particles/_clients.scss */
 #left_scroll a {
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/left-arrow.png') no-repeat scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/left-arrow.png?582634a1') no-repeat scroll center center rgba(0, 0, 0, 0);
   display: inline-block;
   height: 150px;
   opacity: 0.7;
@@ -4059,7 +4059,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 37, wp-content/themes/g5_identity/scss/Identity/particles/_clients.scss */
 #right_scroll a {
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/right-arrow.png') no-repeat scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/right-arrow.png?582634a1') no-repeat scroll center center rgba(0, 0, 0, 0);
   display: inline-block;
   height: 150px;
   opacity: 0.7;
@@ -4432,7 +4432,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   content: "";
   width: 16px;
   height: 26px;
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/slider_controls.png') 0 bottom no-repeat;
+  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/slider_controls.png?582634a1') 0 bottom no-repeat;
   top: 50%;
   margin-top: -13px;
   left: 12px;
@@ -4899,7 +4899,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* ##### Work Experience and Education ##### */
 /* line 2, wp-content/themes/g5_identity/scss/Identity/particles/_timeline.scss */
 ul.timeline {
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/timeline-bg.jpg') repeat-y scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/timeline-bg.jpg?582634a1') repeat-y scroll center center rgba(0, 0, 0, 0);
   height: auto;
   margin: 40px auto 0;
   padding: 0 0 80px;
