@@ -35,10 +35,11 @@ layout:
       - 'skillchart-1146 16.7'
       - 'skillchart-6806 16.7'
       - 'skillchart-1002 16.7'
+  /quote/:
     -
-      - 'spacer-7406 25'
-      - 'custom-8278 50'
-      - 'spacer-9754 25'
+      - 'custom-8705 20'
+      - 'custom-8278 60'
+      - 'custom-7374 20'
   /jobTitle/:
     -
       - career-4984
@@ -82,8 +83,6 @@ layout:
       - custom-8220
   /footer/:
     -
-      - logo-9571
-    -
       - copyright-1736
     -
       - totop-8670
@@ -113,6 +112,10 @@ structure:
     attributes:
       boxed: ''
       class: ''
+  quote:
+    type: section
+    attributes:
+      boxed: ''
   jobTitle:
     type: section
     attributes:
@@ -160,6 +163,7 @@ content:
     title: 'Logo / Image'
     attributes:
       text: 'JONATHAN DOE'
+      class: 'g-logo g-logo-Identity'
   menu-6409:
     block:
       class: smallpadding-content
@@ -199,10 +203,9 @@ content:
   bio-4926:
     title: 'Mini Bio'
     attributes:
-      title: 'Be who you are and say what you feel, because those who mind don’t matter, and those who matter don’t mind.'
+      title: 'Be who you are and say what you feel, because those who mind don''t matter, and those who matter don''t mind.'
       text: "<p>\nHello, I’m a UI/UX Designer & Front End Developer from Dhaka, Bangladesh. I hold a master degree of Web Design from the St. Patrick University.\n</p>\n<p>\nI currently work at Intel, where I spend most of my time crafting and working on awesome projects. Lorem ipsum dolor sit amet consectetuer Integer eleifend Curabitur id ut. Quisque Aenean ut pede id elit ligula est mollis sapien magna. Urna turpis quis sagittis at ac Sed augue habitant tortor elit. Dolor Quisque et elit aliquam vitae habitant.\n</p>"
       image: 'gantry-media://signature.png'
-      twig: '1'
   statscubes-6326:
     title: 'Stats Cubes'
     attributes:
@@ -291,7 +294,7 @@ content:
     attributes:
       title: Photoshop
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '91'
+      percent: '50'
   skillchart-3634:
     title: 'Circle Graph'
     attributes:
@@ -322,10 +325,24 @@ content:
       title: PHP
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '85'
+  custom-8705:
+    title: 'Custom HTML'
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right fa-flip-horizontal" aria-hidden="true"></i>'
+    block:
+      variations: align-right
   custom-8278:
     title: 'Custom HTML'
     attributes:
-      html: '<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>'
+      html: "<h4>\"Champions aren't made in gyms, Champions are made from something they have deep inside them.\"</h4>\n"
+    block:
+      variations: center
+  custom-7374:
+    title: 'Custom HTML'
+    attributes:
+      html: '<i class="fa fa-2x fa-quote-right" aria-hidden="true"></i>'
+    block:
+      variations: align-left
   career-4984:
     attributes:
       label: 'I am available for'
@@ -416,56 +433,56 @@ content:
       items:
         -
           filters: 'tommy zed'
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: 'Projects Done'
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://photo.jpg'
+          image: 'gantry-media://2014/09/portrait-test.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
@@ -483,7 +500,6 @@ content:
     title: 'What clients Say'
     attributes:
       variant: o3
-      title: 'What my clients are saying'
       dots: enable
       slides: '1'
       autoplay: enable
@@ -630,8 +646,6 @@ content:
     attributes:
       html: "<div id=\"map_canvas\" class=\"item_fade_in\">\n</div>\n<script src=\"{{ url('gantry-assets://js/gmap-settings.js') }}\"></script>\n<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyB8V0N2cjoXP81sg8po9HBimuix1j2o_xc&callback=initMap\"\n  type=\"text/javascript\"></script>\n"
       twig: '1'
-  logo-9571:
-    title: 'Logo / Image'
   copyright-1736:
     block:
       variations: 'nopaddingall nomarginall'

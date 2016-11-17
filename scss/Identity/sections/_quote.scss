@@ -1,0 +1,18 @@
+#g-quote {
+    background: $quote-background;
+    color: $quote-text-color;
+    padding: $section-padding 0;
+
+    @if $quote-background-image {
+  		background: url($quote-background-image) no-repeat center top;
+  		background-size: cover;
+  		background-attachment: fixed;
+  	}
+}
+
+@media print {
+    #g-jobTitle {
+        background: #fff !important;
+        color: #000 !important;
+    }
+}

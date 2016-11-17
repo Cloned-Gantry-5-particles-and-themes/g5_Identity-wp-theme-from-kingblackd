@@ -1,0 +1,19 @@
+name: Quote Styles
+description: Quote section styles for the Identity theme
+type: section
+
+form:
+  fields:
+
+    background:
+      type: input.colorpicker
+      label: Background
+      default: "#8f4dae"
+    background-image:
+      type: input.imagepicker
+      label: Background Image
+      default: 'gantry-media://testimonials/img01.jpg'
+    text-color:
+      type: input.colorpicker
+      label: Text
+      default: "#eceeef"

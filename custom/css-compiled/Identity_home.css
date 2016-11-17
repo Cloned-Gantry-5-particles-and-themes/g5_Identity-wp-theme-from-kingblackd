@@ -2486,6 +2486,22 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     color: #000 !important;
   }
 }
+/* line 1, wp-content/themes/g5_identity/scss/Identity/sections/_quote.scss */
+#g-quote {
+  background: #312f38;
+  color: #fff;
+  padding: 3rem 0;
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/custom/images/img/section-bg1.jpg?5825f75d') no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+@media print {
+  /* line 14, wp-content/themes/g5_identity/scss/Identity/sections/_quote.scss */
+  #g-jobTitle {
+    background: #fff !important;
+    color: #000 !important;
+  }
+}
 /* line 1, wp-content/themes/g5_identity/scss/Identity/sections/_jobtitle.scss */
 #g-jobTitle {
   background: #424753;
