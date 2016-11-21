@@ -1,7 +1,8 @@
 #g-footer {
     background: $footer-background;
     color: $footer-text-color;
-    padding: $section-padding 0;
+    border-top: 1px solid #333333;
+    padding: 0;
 
     .g-content {
         margin: $content-margin 0;
@@ -55,7 +56,7 @@
       opacity: 0.5;
       z-index: 100;
       display: none;
-      
+
       &:hover {
       	filter: alpha(opacity=100);
       	opacity: 1;
