@@ -1,68 +1,38 @@
 ordering:
   home: ''
   about: ''
-  process: ''
   skills: ''
-  resume: ''
-  works: ''
-  clients: ''
   contact: ''
+  education: ''
+  readings: ''
+  experience: ''
+  testimonials: ''
 items:
   home:
-    id: 892
-    type: custom
-    enabled: '1'
+    object_id: 892
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-    anchor_class: ''
   about:
-    id: 885
-    type: custom
-    enabled: '1'
+    object_id: 885
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-    anchor_class: ''
-  process:
-    id: 890
-    type: custom
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
+  experience:
+    object_id: 890
   skills:
-    id: 887
-    type: custom
-    enabled: '1'
+    object_id: 887
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-    anchor_class: ''
-  resume:
-    id: 888
-    type: custom
-    enabled: true
-    anchor_class: ''
-  works:
-    id: 886
-    type: custom
-    enabled: true
-    anchor_class: ''
-  clients:
-    id: 889
-    type: custom
-    enabled: '1'
-    dropdown_dir: right
-    dropdown_hide: '0'
-    width: auto
-    anchor_class: ''
+  education:
+    object_id: 888
+  readings:
+    object_id: 886
+  testimonials:
+    object_id: 889
   contact:
-    id: 891
-    type: custom
-    enabled: '1'
+    object_id: 891
     dropdown_dir: right
     dropdown_hide: '0'
     width: auto
-    anchor_class: ''

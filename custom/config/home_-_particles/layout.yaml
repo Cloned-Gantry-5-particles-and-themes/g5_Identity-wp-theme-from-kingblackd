@@ -21,6 +21,7 @@ layout:
   /skills/:
     -
       - contenttabs-3854
+  /quote/: { }
   /job-title/:
     -
       - contentcubes-7850

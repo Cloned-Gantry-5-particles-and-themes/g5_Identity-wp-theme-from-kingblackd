@@ -15,9 +15,9 @@ layout:
     -
       - sectiontitle-6772
     -
-      - 'profile-4138 33'
-      - 'bio-4926 34'
-      - 'statscubes-6326 33'
+      - 'profile-4138 25'
+      - 'bio-4926 45'
+      - 'statscubes-6326 30'
     -
       - custom-9799
   /process/:
@@ -162,7 +162,7 @@ content:
   logo-9608:
     title: 'Logo / Image'
     attributes:
-      text: 'JONATHAN DOE'
+      text: 'Dean Balh'
       class: 'g-logo g-logo-Identity'
   menu-6409:
     block:
@@ -178,8 +178,8 @@ content:
       items:
         -
           image: 'gantry-media://header/img01.png'
-          title: 'Jonathan Doe'
-          desc: 'Professional Nurse'
+          title: 'Dean Balh'
+          desc: 'Sales Representative'
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -197,28 +197,28 @@ content:
   profile-4138:
     title: 'Profile Image'
     attributes:
-      image: 'gantry-media://2014/09/freelancer.png'
-      name: 'JONATHAN DOE'
-      title: 'UI/UX Designer'
+      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/045/066/344c078.jpg'
+      name: 'Dean Balh'
+      title: 'Sales Representative'
   bio-4926:
     title: 'Mini Bio'
     attributes:
-      title: 'Be who you are and say what you feel, because those who mind don''t matter, and those who matter don''t mind.'
-      text: "<p>\nHello, I’m a UI/UX Designer & Front End Developer from Dhaka, Bangladesh. I hold a master degree of Web Design from the St. Patrick University.\n</p>\n<p>\nI currently work at Intel, where I spend most of my time crafting and working on awesome projects. Lorem ipsum dolor sit amet consectetuer Integer eleifend Curabitur id ut. Quisque Aenean ut pede id elit ligula est mollis sapien magna. Urna turpis quis sagittis at ac Sed augue habitant tortor elit. Dolor Quisque et elit aliquam vitae habitant.\n</p>"
+      title: '"I know where I''m going and I know the truth, and I don''t have to be what you want me to be, I''m free to be what I want"'
+      text: "<p>Dean has earned his place as one of the most sought after real estate agents in Toronto. In 2013, Dean was recognized as the #1 producing agent in Century 21 Downtown. Dean makes the real estate process successful as well as enjoyable for everyone he represents. With years of experience ranging from condominiums; investment properties and luxury homes, Dean's main objective is to ensure that each and every individual he represents will feel as though he is working for them alone.\n</p>\n<p> Regardless of how insurmountable or unexpected the task, you will experience an agent who approaches each assignment with experience, honesty, and commitment to detail as he is tenacious in fulfilling the particular needs of his clientele. Always on top of market conditions, Dean understands value and assists his clients in obtaining it through their residences and investments. His work and dedication have without question added a new level of standards to the industry.</p>"
       image: 'gantry-media://signature.png'
   statscubes-6326:
     title: 'Stats Cubes'
     attributes:
-      dob: '2016-11-09'
-      phone: '4165982122'
-      email: zedsdas@msn.ca
-      address: '12 Segun Bagicha, 10th Floor, Dhaka 1000, Bangladesh.'
+      dob: '1981-08-22'
+      phone: '4165008950'
+      email: deanbalh@gmail.com
+      address: '50 Lynn Williams Street, Unit 414, Toronto, Ontario, Canada'
       items:
         -
           icon: 'fa fa-group fa-2x'
           label: Languages
-          value: '2'
-          name: Clients
+          value: '3'
+          name: Languages
         -
           icon: 'fa fa-flag fa-2x'
           label: 'Years Experience'
@@ -227,13 +227,13 @@ content:
         -
           icon: 'fa fa-trophy fa-2x'
           label: 'Awards & Accolades'
-          value: '13'
+          value: '11'
           name: Awards
         -
           icon: 'fa fa-thumbs-up fa-2x'
           label: 'Volunteer Efforts'
-          value: '10'
-          name: Projects
+          value: '15'
+          name: 'Volunteer Efforts'
   custom-9799:
     title: Services
     attributes:
@@ -252,29 +252,24 @@ content:
     attributes:
       items:
         -
-          icon: 'fa fa-comments'
-          title: Discussion
-          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          icon: 'fa fa-sellsy'
+          title: 'Century 21 Regal'
+          desc: 'Sales representative with focus on residential and commercial sales'
           name: Discussion
         -
-          icon: 'fa fa-lightbulb-o'
-          title: Idea
-          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          icon: 'fa fa-home'
+          title: 'Fine Property Collection'
+          desc: '2011 - Designed and developed a program to assist in luxury home sales in the GTA'
           name: Idea
         -
-          icon: 'fa fa-desktop'
-          title: Implementation
-          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
-          name: Implementation
-        -
           icon: 'fa fa-flash'
-          title: Review
-          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          title: 'Royal Lepage Signature'
+          desc: 'Sales broker with a focus on branding and training programs for junior agents'
           name: Review
         -
-          icon: 'fa fa-rocket'
-          title: Deliver
-          desc: 'Lorem Ipsum lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
+          icon: 'fa fa-taxi'
+          title: 'Peel Police'
+          desc: 'Law enforcement in peel region with a focus on proactive and reactive policing.'
           name: Deliver
     block:
       variations: 'nomarginall nopaddingall'
@@ -292,37 +287,37 @@ content:
   skillchart-5713:
     title: 'Circle Graph'
     attributes:
-      title: Photoshop
+      title: Leadership
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '50'
   skillchart-3634:
     title: 'Circle Graph'
     attributes:
-      title: Illustrator
+      title: Initiative
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '60'
   skillchart-9262:
     title: 'Circle Graph'
     attributes:
-      title: HTML
+      title: Communication
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '70'
   skillchart-1146:
     title: 'Circle Graph'
     attributes:
-      title: CSS
+      title: Enthusiasm
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '80'
   skillchart-6806:
     title: jQuery
     attributes:
-      title: jQuery
+      title: 'Team Work'
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '65'
   skillchart-1002:
     title: PHP
     attributes:
-      title: PHP
+      title: Creativity
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '85'
   custom-8705:
@@ -334,7 +329,7 @@ content:
   custom-8278:
     title: 'Custom HTML'
     attributes:
-      html: "<h4>\"Champions aren't made in gyms, Champions are made from something they have deep inside them.\"</h4>\n"
+      html: "<h4>It's the repletion of affirmations that leads to belief becomes a deep conviction, things begin to happen</h4>\n"
     block:
       variations: center
   custom-7374:
@@ -366,9 +361,9 @@ content:
       items:
         -
           section: present
-          title: 'Creative Agency'
-          label: 'Project Manager'
-          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
+          title: 'Ontario Real Estate College'
+          label: 'College Diploma'
+          desc: 'Learned the basics of sales in the real estate industry in a controlled environment. Graduated with honours'
           startdate: 2013-12
           enddate: 2016-11
           current: 'yes'
@@ -383,7 +378,7 @@ content:
           current: 'no'
           name: Infosys
         -
-          section: education
+          section: present
           title: 'Master Degree of Computer Science'
           label: 'Oxford University'
           desc: 'This is Photoshop''s version Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
@@ -400,24 +395,6 @@ content:
           enddate: 2012-05
           current: 'no'
           name: 'Micro Web Planet'
-        -
-          section: present
-          title: 'Creative Solution'
-          label: 'Web Designer'
-          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
-          startdate: 2011-01
-          enddate: 2012-12
-          current: 'no'
-          name: 'Creative Solution'
-        -
-          section: education
-          title: 'Bechelor Degree of Computer Science'
-          label: 'Oxford University'
-          desc: 'Lorem Ipsum. This is Photoshop''s version Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
-          startdate: 2007-02
-          enddate: 2011-02
-          current: 'no'
-          name: 'Bechelor Degree of Computer Science'
   sectiontitle-4130:
     title: 'Section Title'
     attributes:
@@ -433,56 +410,56 @@ content:
       items:
         -
           filters: 'tommy zed'
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: 'Projects Done'
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://2014/09/portrait-test.jpg'
+          image: 'gantry-media://savannah/edgar.jpg'
           icon: 'fa fa-align-justify'
           title: dasdad
           label: ''
@@ -491,7 +468,7 @@ content:
     title: 'Section Title'
     attributes:
       title: My
-      label: Testimonials
+      label: References
       icon: 'fa fa-users fa-2x'
       class: white
     block:
@@ -631,10 +608,10 @@ content:
   contactdetails-5862:
     title: 'Contact Details'
     attributes:
-      address: '12 Segun Bagicha, 10th Floor <br> Dhaka, Bangladesh'
-      phone: '+1 343-234-4343'
-      phone2: '+0 243-243-4243'
-      email: john@aol.com
+      address: '50 Lynn Williams Street, Unit 414,</br> Toronto, Ontario, Canada'
+      phone: 416-500-8950
+      phone2: ''
+      email: deanbalh@gmail.com
       icon: 'fa fa-map-marker fa-2x'
   custom-5538:
     title: 'Custom HTML'
@@ -644,7 +621,7 @@ content:
   custom-8220:
     title: 'Custom HTML'
     attributes:
-      html: "<div id=\"map_canvas\" class=\"item_fade_in\">\n</div>\n<script src=\"{{ url('gantry-assets://js/gmap-settings.js') }}\"></script>\n<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyB8V0N2cjoXP81sg8po9HBimuix1j2o_xc&callback=initMap\"\n  type=\"text/javascript\"></script>\n"
+      html: "<div id=\"map_canvas\" class=\"item_fade_in\">\n</div>\n<script src=\"{{ url('gantry-assets://js/gmap-settings.js') }}\"></script>\n<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDViAPRqigYG26MGZpXJuBfuuWgsQthfJI&callback=initMap\"\n  type=\"text/javascript\"></script>\n"
       twig: '1'
   copyright-1736:
     block:

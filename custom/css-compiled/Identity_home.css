@@ -400,7 +400,7 @@ textarea, select[multiple=multiple], input[type="color"], input[type="date"], in
   font-family: 'rockettheme-apps';
   font-style: normal;
   font-weight: normal;
-  src: url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.eot?582634a1#iefix') format("embedded-opentype"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff2?582634a1') format("woff2"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff?582634a1') format("woff"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.ttf?582634a1') format("truetype"), url('//local.wordpress.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.svg?582634a1#rockettheme-apps') format("svg");
+  src: url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.eot#iefix') format("embedded-opentype"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff2') format("woff2"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.woff') format("woff"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.ttf') format("truetype"), url('//local.vcard.com/wp-content/themes/g5_identity/fonts/rockettheme-apps/rockettheme-apps.svg#rockettheme-apps') format("svg");
 }
 /* line 4, wp-content/themes/g5_identity/scss/Identity/styles/_fonts.scss */
 i.fa-grav, i.fa-grav-spaceman, i.fa-grav-text, i.fa-grav-full, i.fa-grav-logo, i.fa-grav-symbol, i.fa-grav-logo-both, i.fa-grav-both, i.fa-gantry, i.fa-gantry-logo, i.fa-gantry-symbol, i.fa-gantry-logo-both, i.fa-gantry-both {
@@ -531,7 +531,7 @@ a:hover {
   top: 50%;
   left: 50%;
   margin: -40px 0 0 -40px;
-  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/preloader.gif?582634a1');
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/preloader.gif');
 }
 /* line 100, wp-content/themes/g5_identity/scss/Identity/styles/_core.scss */
 .section-content {
@@ -2491,7 +2491,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   background: #312f38;
   color: #fff;
   padding: 3rem 0;
-  background: url('//local.vcard.com/wp-content/themes/g5_identity/custom/images/img/section-bg1.jpg?5825f75d') no-repeat center top;
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/custom/images/img/section-bg1.jpg') no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2539,7 +2539,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   padding: 3rem 0;
   position: relative;
   z-index: 10;
-  background: url('//local.wordpress.com/wp-content/uploads/2014/09/parallax3.jpg') no-repeat center top;
+  background: url('//local.vcard.com/wp-content/uploads/2014/09/parallax3.jpg') no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
 }
@@ -2746,13 +2746,14 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 #g-footer {
   background: #333;
   color: #fff;
-  padding: 3rem 0;
+  border-top: 1px solid #333;
+  padding: 0;
 }
-/* line 6, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 7, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-content {
   margin: 0.625rem 0;
 }
-/* line 11, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 12, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-copyright {
   font-size: 0.8125rem;
   line-height: 1.25rem;
@@ -2762,7 +2763,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     text-align: center;
   }
 }
-/* line 21, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 22, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-horizontalmenu {
   padding: 0.5rem 0;
   text-align: right;
@@ -2772,16 +2773,16 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
     text-align: center;
   }
 }
-/* line 29, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 30, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-horizontalmenu a {
   color: #fff;
 }
-/* line 32, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 33, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-horizontalmenu a:hover {
   color: rgba(255, 255, 255, 0.6);
   box-shadow: 0 2px 0 rgba(255, 255, 255, 0.2);
 }
-/* line 40, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 41, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-totop {
   position: fixed;
   bottom: 20px;
@@ -2801,21 +2802,21 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   z-index: 100;
   display: none;
 }
-/* line 59, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 60, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-totop:hover {
   filter: alpha(opacity=100);
   opacity: 1;
 }
-/* line 64, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 65, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-totop a {
   color: #fff;
 }
-/* line 67, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+/* line 68, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
 #g-footer .g-totop a:hover {
   color: rgba(255, 255, 255, 0.6);
 }
 @media print {
-  /* line 75, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
+  /* line 76, wp-content/themes/g5_identity/scss/Identity/sections/_footer.scss */
   #g-footer {
     background: #fff !important;
     color: #000 !important;
@@ -3651,7 +3652,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   top: 50%;
   margin-left: -40px;
   margin-top: -40px;
-  background: url('//local.wordpress.com/owl.video.play.png') no-repeat;
+  background: url('//local.vcard.com/owl.video.play.png') no-repeat;
   cursor: pointer;
   z-index: 1;
   -webkit-backface-visibility: hidden;
@@ -4038,7 +4039,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 19, wp-content/themes/g5_identity/scss/Identity/particles/_clients.scss */
 #left_scroll a {
-  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/left-arrow.png?582634a1') no-repeat scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/left-arrow.png') no-repeat scroll center center rgba(0, 0, 0, 0);
   display: inline-block;
   height: 150px;
   opacity: 0.7;
@@ -4059,7 +4060,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 /* line 37, wp-content/themes/g5_identity/scss/Identity/particles/_clients.scss */
 #right_scroll a {
-  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/right-arrow.png?582634a1') no-repeat scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/right-arrow.png') no-repeat scroll center center rgba(0, 0, 0, 0);
   display: inline-block;
   height: 150px;
   opacity: 0.7;
@@ -4432,7 +4433,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
   content: "";
   width: 16px;
   height: 26px;
-  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/slider_controls.png?582634a1') 0 bottom no-repeat;
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/slider_controls.png') 0 bottom no-repeat;
   top: 50%;
   margin-top: -13px;
   left: 12px;
@@ -4899,7 +4900,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 /* ##### Work Experience and Education ##### */
 /* line 2, wp-content/themes/g5_identity/scss/Identity/particles/_timeline.scss */
 ul.timeline {
-  background: url('//local.wordpress.com/wp-content/themes/g5_identity/img/timeline-bg.jpg?582634a1') repeat-y scroll center center rgba(0, 0, 0, 0);
+  background: url('//local.vcard.com/wp-content/themes/g5_identity/img/timeline-bg.jpg') repeat-y scroll center center rgba(0, 0, 0, 0);
   height: auto;
   margin: 40px auto 0;
   padding: 0 0 80px;
@@ -5202,30 +5203,30 @@ ul.timeline {
   .hidden-desktop {
     display: none !important;
   }
+  /* line 21, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
+    display: none !important;
+  }
 }
 @media only all and (min-width: 60rem) and (max-width: 74.938rem) {
-  /* line 24, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 27, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
-  /* line 27, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
   /* line 30, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
-  }
-  /* line 33, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: inherit !important;
   }
-  /* line 36, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 33, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-desktop {
     display: block !important;
   }
-  /* line 39, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 36, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-desktop {
+    display: none !important;
+  }
+  /* line 39, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
     display: none !important;
   }
 }
@@ -5243,74 +5244,46 @@ ul.timeline {
     display: none !important;
   }
   /* line 54, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  /* line 57, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-desktop {
-    display: block !important;
-  }
-  /* line 60, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: none !important;
   }
-  /* line 63, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 57, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
-  /* line 66, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
-  /* line 69, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
+  /* line 60, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  .visible-phone {
+    display: none !important;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 75, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 66, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-phone {
     display: inherit !important;
   }
-  /* line 78, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 69, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .g-block.visible-phone {
     display: block !important;
   }
-  /* line 81, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 72, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .hidden-phone {
     display: none !important;
   }
-  /* line 84, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-desktop {
-    display: inherit !important;
-  }
-  /* line 87, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-desktop {
-    display: block !important;
-  }
-  /* line 90, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 75, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-desktop {
     display: none !important;
   }
-  /* line 93, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .hidden-large {
-    display: inherit !important;
-  }
-  /* line 96, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
-  .g-block.hidden-large {
-    display: block !important;
-  }
-  /* line 99, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 78, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .visible-large {
     display: none !important;
   }
 }
 @media only all and (max-width: 47.938rem) {
-  /* line 106, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 85, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-right {
     text-align: inherit !important;
   }
-  /* line 109, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
+  /* line 88, wp-content/plugins/gantry5/engines/nucleus/scss/nucleus/theme/breakpoints/_utilities.scss */
   .align-left {
     text-align: inherit !important;
   }
