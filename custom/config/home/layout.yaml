@@ -37,9 +37,9 @@ layout:
       - 'skillchart-1002 16.7'
   /quote/:
     -
-      - 'custom-8705 20'
+      - 'spacer-2470 20'
       - 'custom-8278 60'
-      - 'custom-7374 20'
+      - 'spacer-1003 20'
   /jobTitle/:
     -
       - career-4984
@@ -162,7 +162,7 @@ content:
   logo-9608:
     title: 'Logo / Image'
     attributes:
-      text: 'Dean Balh'
+      text: 'LEONID SPEKTOR'
       class: 'g-logo g-logo-Identity'
   menu-6409:
     block:
@@ -178,8 +178,8 @@ content:
       items:
         -
           image: 'gantry-media://header/img01.png'
-          title: 'Dean Balh'
-          desc: 'Sales Representative'
+          title: 'LEONID SPEKTOR'
+          desc: 'Sen. Software Developer'
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -197,42 +197,42 @@ content:
   profile-4138:
     title: 'Profile Image'
     attributes:
-      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/p/7/005/045/066/344c078.jpg'
-      name: 'Dean Balh'
-      title: 'Sales Representative'
+      image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAARvAAAAJDlkYzBhMDIwLWI4MDQtNDRiNC1iNDhiLThmZTdiNDM5ZDczZg.jpg'
+      name: 'LEONID SPEKTOR'
+      title: 'Sen. Software Developer / Tech Lead '
   bio-4926:
     title: 'Mini Bio'
     attributes:
-      title: '"I know where I''m going and I know the truth, and I don''t have to be what you want me to be, I''m free to be what I want"'
-      text: "<p>Dean has earned his place as one of the most sought after real estate agents in Toronto. In 2013, Dean was recognized as the #1 producing agent in Century 21 Downtown. Dean makes the real estate process successful as well as enjoyable for everyone he represents. With years of experience ranging from condominiums; investment properties and luxury homes, Dean's main objective is to ensure that each and every individual he represents will feel as though he is working for them alone.\n</p>\n<p> Regardless of how insurmountable or unexpected the task, you will experience an agent who approaches each assignment with experience, honesty, and commitment to detail as he is tenacious in fulfilling the particular needs of his clientele. Always on top of market conditions, Dean understands value and assists his clients in obtaining it through their residences and investments. His work and dedication have without question added a new level of standards to the industry.</p>"
+      title: '"All computers wait at the same speed."'
+      text: "<p>Design and Development of front and back end security components for e-Commerce Financial Applications. Design and development of a high throughput, mission-critical high-availability insurance enrollment module, securing the transactions against penetration violations, integration with mainframe-based modules. Duties included: security modules analysis, design and development of a catalog-based system, front end development, back end (controller) development, development of complex InfoView reports, investigations, debugging, participation in cross-team application inquiries, providing recommendations on new tools and efficient development, leading a remote and local-based team, documentation development. </p>\n<p>\nLanguages and Technologies used: Java/J2EE API, Python, JavaScript, Ajax, jQuery, HTML, JSP, JSTL, Scriplets, Tag Library, CSS, ant, Spring, Struts MVC, Eclipse, WebSphere, Clustering, DBVisualizer, SQL/PL-SQL,  DB2 Server, log4j,  pdf, Junit, Maniframe, Cobol, InfoView, RESTful Web Services.</p>"
       image: 'gantry-media://signature.png'
   statscubes-6326:
     title: 'Stats Cubes'
     attributes:
-      dob: '1981-08-22'
-      phone: '4165008950'
-      email: deanbalh@gmail.com
-      address: '50 Lynn Williams Street, Unit 414, Toronto, Ontario, Canada'
+      dob: '1974-06-16'
+      phone: ' (647) 882 8001 '
+      email: queryfilter@yahoo.com
+      address: '205 HILDA AVENUE UNIT 1505 TORONTO, ONTARIO M2M-4B1'
       items:
         -
           icon: 'fa fa-group fa-2x'
           label: Languages
-          value: '3'
+          value: '4'
           name: Languages
         -
           icon: 'fa fa-flag fa-2x'
           label: 'Years Experience'
-          value: '7'
+          value: '9'
           name: Exp
         -
           icon: 'fa fa-trophy fa-2x'
           label: 'Awards & Accolades'
-          value: '11'
+          value: '7'
           name: Awards
         -
           icon: 'fa fa-thumbs-up fa-2x'
           label: 'Volunteer Efforts'
-          value: '15'
+          value: '2'
           name: 'Volunteer Efforts'
   custom-9799:
     title: Services
@@ -253,23 +253,23 @@ content:
       items:
         -
           icon: 'fa fa-sellsy'
-          title: 'Century 21 Regal'
-          desc: 'Sales representative with focus on residential and commercial sales'
+          title: 'Wescom Communication'
+          desc: 'Developing front and back end components for Long Term Care Medical Application. '
           name: Discussion
         -
           icon: 'fa fa-home'
-          title: 'Fine Property Collection'
-          desc: '2011 - Designed and developed a program to assist in luxury home sales in the GTA'
+          title: 'Ministry of Transportation (MTO)/OpenSystems'
+          desc: 'Providing production and second level support to e-commerce J2EE application (Authorized Requestor Information System); developing new modules for inter-ministry secure document transfer. '
           name: Idea
         -
           icon: 'fa fa-flash'
-          title: 'Royal Lepage Signature'
-          desc: 'Sales broker with a focus on branding and training programs for junior agents'
+          title: 'Manulife Financial'
+          desc: 'Design and Development of front and back end security components for e-Commerce Financial Applications. '
           name: Review
         -
           icon: 'fa fa-taxi'
-          title: 'Peel Police'
-          desc: 'Law enforcement in peel region with a focus on proactive and reactive policing.'
+          title: BlackBerry/TCS
+          desc: 'Development of cloud-based Mobile Device Management JEE application. Duties included: investigations and debugging, development of JEE application '
           name: Deliver
     block:
       variations: 'nomarginall nopaddingall'
@@ -288,63 +288,51 @@ content:
     title: 'Circle Graph'
     attributes:
       title: Leadership
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '50'
+      desc: 'The action of leading a group of people or an organization.'
+      percent: '65'
   skillchart-3634:
     title: 'Circle Graph'
     attributes:
       title: Initiative
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '60'
+      desc: 'The ability to assess and initiate things independently.'
+      percent: '67'
   skillchart-9262:
     title: 'Circle Graph'
     attributes:
       title: Communication
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '70'
+      desc: 'The imparting or exchanging of information or news.'
+      percent: '72'
   skillchart-1146:
     title: 'Circle Graph'
     attributes:
       title: Enthusiasm
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '80'
+      percent: '81'
   skillchart-6806:
     title: jQuery
     attributes:
       title: 'Team Work'
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '65'
+      percent: '66'
   skillchart-1002:
     title: PHP
     attributes:
       title: Creativity
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-      percent: '85'
-  custom-8705:
-    title: 'Custom HTML'
-    attributes:
-      html: '<i class="fa fa-2x fa-quote-right fa-flip-horizontal" aria-hidden="true"></i>'
-    block:
-      variations: align-right
+      percent: '89'
   custom-8278:
     title: 'Custom HTML'
     attributes:
-      html: "<h4>It's the repletion of affirmations that leads to belief becomes a deep conviction, things begin to happen</h4>\n"
+      html: "<i class=\"fa fa-2x fa-quote-right fa-flip-horizontal\" aria-hidden=\"true\"></i><h4 style=\"display:inline\">  I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams. </h4>\n<i class=\"fa fa-2x fa-quote-right\" aria-hidden=\"true\"></i>"
     block:
       variations: center
-  custom-7374:
-    title: 'Custom HTML'
-    attributes:
-      html: '<i class="fa fa-2x fa-quote-right" aria-hidden="true"></i>'
-    block:
-      variations: align-left
   career-4984:
     attributes:
       label: 'I am available for'
       title: Hire
       linktxt: 'Hire Me'
       link: '#g-container-main'
-      location: 'gantry-media://Mikhail Johnson Resume 2016.pdf'
+      location: 'gantry-media://2016/11/LEONID_SPEKTOR_Resume393.doc'
     block:
       variations: center
   sectiontitle-7106:
@@ -361,40 +349,22 @@ content:
       items:
         -
           section: present
-          title: 'Ontario Real Estate College'
-          label: 'College Diploma'
-          desc: 'Learned the basics of sales in the real estate industry in a controlled environment. Graduated with honours'
+          title: 'York University Toronto'
+          label: 'Computer Science'
+          desc: 'Thesis: Real-time image-analysis system for measuring red velocity. Installation: Sunnybrook Hospital'
           startdate: 2013-12
           enddate: 2016-11
           current: 'yes'
           name: 'Creative Agency'
         -
           section: present
-          title: Infosys
-          label: 'UI/UX Designer'
-          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat.'
+          title: 'University of Toronto'
+          label: 'Master of Engineering'
+          desc: 'Thesis: Real-time image-analysis system for measuring red velocity. Installation: Sunnybrook Hospital'
           startdate: 2010-06
           enddate: 2013-11
           current: 'no'
           name: Infosys
-        -
-          section: present
-          title: 'Master Degree of Computer Science'
-          label: 'Oxford University'
-          desc: 'This is Photoshop''s version Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.'
-          startdate: 2012-01
-          enddate: 2013-01
-          current: 'no'
-          name: 'Master Degree of Computer Science'
-        -
-          section: present
-          title: 'Micro Web Planet'
-          label: 'Web Developer'
-          desc: 'Lorem Ipsum roin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat. Photoshop''s version of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, quis bibendum auctor, nisi elit consequat.'
-          startdate: 2012-01
-          enddate: 2012-05
-          current: 'no'
-          name: 'Micro Web Planet'
   sectiontitle-4130:
     title: 'Section Title'
     attributes:
@@ -468,7 +438,7 @@ content:
     title: 'Section Title'
     attributes:
       title: My
-      label: References
+      label: Testimonials
       icon: 'fa fa-users fa-2x'
       class: white
     block:
@@ -484,7 +454,7 @@ content:
         -
           image: ''
           title: ''
-          desc: "<p class=\"quote\">\"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jak Doe</p>\n\t\t\t\t                \t<p class=\"company\">CEO <a href=\"#\">@Intel</a></p>"
+          desc: "<p class=\"quote\">\"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jak Doe</p>\n\t\t\t\t                "
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -500,7 +470,7 @@ content:
         -
           image: ''
           title: ''
-          desc: "<p class=\"quote\">\"I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jane Doe</p>\n\t\t\t\t                \t<p class=\"company\">Owner <a href=\"#\">@Creative Agency</a></p>\t"
+          desc: "<p class=\"quote\">\"I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jane Doe</p>\n\t\t\t\t                \t"
           link: ''
           linktext: ''
           buttonclass: button-outline
@@ -576,32 +546,32 @@ content:
       display: icons_only
       items:
         -
-          icon: 'fa fa-facebook-square fa-fw fa-3x'
+          icon: 'fa fa-facebook-square fa-fw fa-2x'
           text: facebook
           link: 'http://www.facebook.com/'
           name: Facebook
         -
-          icon: 'fa fa-twitter-square fa-fw fa-3x'
+          icon: 'fa fa-twitter-square fa-fw fa-2x'
           text: twitter
           link: 'http://www.twitter.com/'
           name: Twitter
         -
-          icon: 'fa fa-google-plus-square fa-fw fa-3x'
+          icon: 'fa fa-google-plus-square fa-fw fa-2x'
           text: 'google plus'
           link: 'https://plus.google.com/'
           name: Google+
         -
-          icon: 'fa fa-linkedin-square fa-fw fa-3x'
+          icon: 'fa fa-linkedin-square fa-fw fa-2x'
           text: linkedin
-          link: linkedin.com
+          link: 'https://ca.linkedin.com/in/leonid-spektor-3a71a94'
           name: LinkedIn
         -
-          icon: 'fa fa-pinterest-square fa-fw fa-3x'
+          icon: 'fa fa-pinterest-square fa-fw fa-2x'
           text: pintrest
           link: pintrest.com
           name: Pintrest
         -
-          icon: 'fa fa-vimeo-square fa-fw fa-3x'
+          icon: 'fa fa-youtube-play fa-fw fa-2x'
           text: vimeo
           link: vimeo.com
           name: Vimeo

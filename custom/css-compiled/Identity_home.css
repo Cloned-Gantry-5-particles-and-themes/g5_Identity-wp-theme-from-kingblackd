@@ -2497,7 +2497,7 @@ input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focu
 }
 @media print {
   /* line 14, wp-content/themes/g5_identity/scss/Identity/sections/_quote.scss */
-  #g-jobTitle {
+  #g-quote {
     background: #fff !important;
     color: #000 !important;
   }
