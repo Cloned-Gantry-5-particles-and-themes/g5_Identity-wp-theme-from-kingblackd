@@ -58,6 +58,13 @@ javascript:
     priority: '0'
     name: countTo
   -
+    location: 'gantry-assets://js/jquery.isotope.min.js'
+    inline: ''
+    in_footer: '1'
+    extra: {  }
+    priority: '0'
+    name: isotope
+  -
     location: 'https://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js'
     inline: ''
     in_footer: '1'
@@ -78,13 +85,6 @@ javascript:
     extra: {  }
     priority: '0'
     name: 'smooth scroll'
-  -
-    location: 'gantry-assets://js/jquery.isotope.min.js'
-    inline: ''
-    in_footer: '1'
-    extra: {  }
-    priority: '0'
-    name: isotope
   -
     location: 'gantry-assets://js/jquery.validate.min.js'
     inline: ''

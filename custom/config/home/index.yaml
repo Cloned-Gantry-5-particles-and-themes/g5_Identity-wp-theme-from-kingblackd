@@ -1,5 +1,5 @@
 name: home
-timestamp: 1480539958
+timestamp: 1480586854
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,11 +9,11 @@ positions: {  }
 sections:
   navigation: Navigation
   about: About
-  process: Process
+  process: Experience
   skills: Skills
   quote: Quote
-  jobTitle: JobTitle
-  experience: Experience
+  jobTitle: Resume
+  experience: Education
   portfolio: Portfolio
   testimonials: Testimonials
   maincontent-bottom: Maincontent-bottom
@@ -30,7 +30,6 @@ particles:
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
     owlcarousel-7694: 'What clients Say'
-    owlcarousel-3535: logos
   sectiontitle:
     sectiontitle-6772: 'Section Title'
     sectiontitle-7352: MyExperience
@@ -47,9 +46,7 @@ particles:
     statscubes-6326: 'Stats Cubes'
   custom:
     custom-9799: Services
-    custom-8278: 'Custom HTML'
     custom-5538: 'Custom HTML'
-    custom-8220: 'Custom HTML'
   processflow:
     processflow-5648: 'Process Flow'
   skillchart:
@@ -64,18 +61,20 @@ particles:
     spacer-1003: Spacer
     spacer-1647: Spacer
     spacer-8422: Spacer
+  quote:
+    quote-8045: Quote
   career:
     career-4984: Career
   timeline:
     timeline-4115: Education
   isotope:
-    isotope-4854: Portfolio
+    isotope-7263: Isotope
   messages:
     system-messages-9954: 'System Messages'
   social:
     social-8515: Social
-  contactdetails:
-    contactdetails-5862: 'Contact Details'
+  googlemap:
+    googlemap-5181: 'Google Map'
   copyright:
     copyright-1736: Copyright
   totop:

@@ -33,6 +33,11 @@ form:
       label: Owner Link
       description: Add link for owner.
 
+    post.text:
+      type: input.text
+      label: Post Text
+      description: Additional text that you'd like to add after the Copyright owner.
+
     target:
       type: select.select
       label: Owner Link Target

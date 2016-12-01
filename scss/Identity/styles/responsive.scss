@@ -5,7 +5,7 @@
   }
 
   .portfolio-items article {
-    width: 49.4%;
+    width: 100%;
   }
 
   .section-content {
@@ -181,13 +181,13 @@
   }
 }
 /* Small devices (tablets, 768px and up) */
-@include breakpoint(no-mobile) {
+@include breakpoint(tablet-range) {
   .project-description {
     text-align: center;
   }
 
   .portfolio-items article {
-    width: 49.4%;
+    width: 49.5%;
   }
 
   .navbar .navbar-nav {
@@ -271,7 +271,7 @@
   }
 }
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) {
+@include breakpoint(desktop-only) {
   .project-description {
     text-align: inherit;
   }
@@ -313,9 +313,10 @@
     text-align: center;
   }
 }
-/* Large devices (large desktops, 1200px and up) */
+/* Large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
   .portfolio-items article {
-    width: 24.4%;
+    width: 32%;
   }
 }
+*/

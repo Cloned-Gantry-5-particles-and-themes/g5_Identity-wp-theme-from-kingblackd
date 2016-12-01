@@ -1,5 +1,5 @@
 name: home_-_particles
-timestamp: 1480012880
+timestamp: 1480576450
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -9,13 +9,13 @@ positions: {  }
 sections:
   navigation: Navigation
   about: About
-  portfolio: Portfolio
+  process: Experience
   skills: Skills
   quote: Quote
-  job-title: Job-title
-  experience: Experience
+  jobTitle: Resume
+  experience: Education
+  portfolio: Portfolio
   testimonials: Testimonials
-  process: Process
   maincontent-bottom: Maincontent-bottom
   header: Header
   mainbar: Mainbar
@@ -32,16 +32,43 @@ particles:
     social-3171: Social
   owlcarousel:
     owlcarousel-2455: 'Owl Carousel'
+    owlcarousel-7694: Owlcarousel
+    owlcarousel-3535: Owlcarousel
+  sectiontitle:
+    sectiontitle-6772: Sectiontitle
+    sectiontitle-7352: Sectiontitle
+    sectiontitle-7889: Sectiontitle
+    sectiontitle-7106: Sectiontitle
+    sectiontitle-4130: Sectiontitle
+    sectiontitle-8354: Sectiontitle
+  profile:
+    profile-4138: Profile
+  bio:
+    bio-4926: Bio
+  statscubes:
+    statscubes-6326: Statscubes
   custom:
-    custom-5807: About
-    custom-3119: Portfolio
-    custom-6355: 'Develop CMS themes quickly'
-    custom-7658: Process
-    custom-1071: Process
-  contenttabs:
-    contenttabs-3854: Skills
-  contentcubes:
-    contentcubes-7850: 'Job Title'
+    custom-9799: Custom
+  processflow:
+    processflow-5648: Processflow
+  skillchart:
+    skillchart-5713: Skillchart
+    skillchart-3634: Skillchart
+    skillchart-9262: Skillchart
+    skillchart-1146: Skillchart
+    skillchart-6806: Skillchart
+    skillchart-1002: Skillchart
+  spacer:
+    spacer-2470: Spacer
+    spacer-1003: Spacer
+  quote:
+    quote-8045: Quote
+  career:
+    career-4984: Career
+  timeline:
+    timeline-4115: Timeline
+  isotope:
+    isotope-4854: Isotope
   copyright:
     copyright-1736: Copyright
   horizontalmenu:

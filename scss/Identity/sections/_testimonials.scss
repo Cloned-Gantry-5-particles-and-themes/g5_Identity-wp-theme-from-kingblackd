@@ -47,6 +47,8 @@
 
 		.g-owlcarousel-item-desc {
 			display: block;
+			padding: 0;
+			margin: 0;
 		}
 	}
 
@@ -103,9 +105,9 @@
 	    width: 100%;
 	}
 	.owl-dots {
-	    position: absolute;
+	    position: relative;;
 	    text-align: center;
-	    top: 170px;
+	    top: 0;
 	    width: 100%;
 	    z-index: 20;
 	}

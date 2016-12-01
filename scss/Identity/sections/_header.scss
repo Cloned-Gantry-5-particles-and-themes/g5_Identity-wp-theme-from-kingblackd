@@ -64,33 +64,41 @@
 		}
 		.g-owlcarousel-item-title {
 		  font-family: get-font-family($font-family-title);
-		    font-size: 5vw;
-		    line-height: 6vw;
+		    font-size: 8vw;
+		    line-height: 8vw;
 		    text-transform: uppercase;
 		    font-weight: $font-weight-medium;
 		    margin: 0;
-		    padding: 3px 16px;
+		    padding: 8px 16px 3px;
 		    letter-spacing: -2px;
 		    transition: all .5s ease 0s;
+				@include breakpoint(mobile-only) {
+					font-size: 9vw;
+			    line-height: 9vw;
+				}
 		}
 
 		.g-owlcarousel-item-desc {
 			font-family: get-font-family($font-family-default);
-		    font-size: 2vw;
+		    font-size: 2.25vw;
 		    line-height: 3vw;
 		    font-weight: $font-weight-bold;
-		    padding-bottom: $content-padding * 1.5;
+		    padding-bottom: 6px;
 		    transition: all 0s ease 0s;
 		    margin: 0;
-		    padding: 0;
 		    letter-spacing: 0;
 		    text-transform: uppercase;
 				transition: all .5s ease 0s;
+				@include breakpoint(mobile-only) {
+					display: block;
+					font-size: 3vw;
+			    line-height: 4vw;
+				}
 		}
 
 		.g-owlcarousel-item-content {
 			padding: 0;
-			border: .3vw solid;
+			border: 2px solid;
 		}
 }
 

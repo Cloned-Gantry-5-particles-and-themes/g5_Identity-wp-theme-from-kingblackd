@@ -14,26 +14,53 @@ layout:
       - owlcarousel-2455
   /about/:
     -
-      - custom-5807
-  /portfolio/:
+      - sectiontitle-6772
     -
-      - custom-3119
-  /skills/:
+      - 'profile-4138 25'
+      - 'bio-4926 45'
+      - 'statscubes-6326 30'
     -
-      - contenttabs-3854
-  /quote/: { }
-  /job-title/:
-    -
-      - contentcubes-7850
-  /experience/:
-    -
-      - custom-6355
-  /testimonials/:
-    -
-      - custom-7658
+      - custom-9799
   /process/:
     -
-      - custom-1071
+      - sectiontitle-7352
+    -
+      - processflow-5648
+  /skills/:
+    -
+      - sectiontitle-7889
+    -
+      - 'skillchart-5713 16.7'
+      - 'skillchart-3634 16.7'
+      - 'skillchart-9262 16.7'
+      - 'skillchart-1146 16.7'
+      - 'skillchart-6806 16.7'
+      - 'skillchart-1002 16.7'
+  /quote/:
+    -
+      - 'spacer-2470 20'
+      - 'quote-8045 60'
+      - 'spacer-1003 20'
+  /jobTitle/:
+    -
+      - career-4984
+  /experience/:
+    -
+      - sectiontitle-7106
+    -
+      - timeline-4115
+  /portfolio/:
+    -
+      - sectiontitle-4130
+    -
+      - isotope-4854
+  /testimonials/:
+    -
+      - sectiontitle-8354
+    -
+      - owlcarousel-7694
+    -
+      - owlcarousel-3535
   /container-main/:
     -
       -
@@ -63,7 +90,8 @@ structure:
     type: section
     attributes:
       boxed: ''
-  portfolio:
+  process:
+    title: Experience
     type: section
     attributes:
       boxed: ''
@@ -72,11 +100,21 @@ structure:
     attributes:
       boxed: ''
       class: ''
-  job-title:
+  quote:
+    type: section
+    attributes:
+      boxed: ''
+  jobTitle:
+    title: Resume
     type: section
     attributes:
       boxed: ''
   experience:
+    title: Education
+    type: section
+    attributes:
+      boxed: ''
+  portfolio:
     type: section
     attributes:
       boxed: ''
@@ -84,10 +122,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  process:
-    type: section
-    attributes:
-      boxed: ''
+      class: 'clients parallax'
   mainbar:
     type: section
     subtype: main

@@ -1,12 +1,12 @@
 ordering:
   home: ''
   about: ''
+  experience: ''
   skills: ''
-  contact: ''
   education: ''
   readings: ''
-  experience: ''
   testimonials: ''
+  contact: ''
 items:
   home:
     object_id: 892

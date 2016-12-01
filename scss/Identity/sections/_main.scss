@@ -1,12 +1,16 @@
 #g-mainbar {
-    background: $base-background;
-    color: $base-text-color;
-    padding: $section-padding 0;
-}
+  background: $base-background;
+  color: $base-text-color;
+  padding: $section-padding 0;
 
+  span.fa-3x {
+    font-size: 2.5rem;
+  }
+
+}
 @media print {
-	#g-main {
-		background: #fff !important;
-		color: #000 !important;
-	}
+  #g-main {
+    background: #fff !important;
+    color: #000 !important;
+  }
 }

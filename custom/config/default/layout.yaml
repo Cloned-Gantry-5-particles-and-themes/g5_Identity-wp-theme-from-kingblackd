@@ -9,13 +9,15 @@ layout:
       - 'logo-9608 15'
       - 'menu-6409 65'
       - 'social-3171 20'
-  /header/: {  }
-  /intro/: {  }
-  /features/: {  }
-  /utility/: {  }
-  /above/: {  }
-  /testimonials/: {  }
-  /expanded/: {  }
+  /header/: { }
+  /about/: { }
+  /portfolio/: { }
+  /skills/: { }
+  /quote/: { }
+  /job-title/: { }
+  /experience/: { }
+  /testimonials/: { }
+  /process/: { }
   /container-main/:
     -
       -
@@ -47,21 +49,36 @@ structure:
   header:
     attributes:
       boxed: ''
+      class: g-flushed
+  about:
+    type: section
+    attributes:
+      boxed: ''
+  process:
+    title: Experience
+    type: section
+    attributes:
+      boxed: ''
+  skills:
+    type: section
+    attributes:
+      boxed: ''
       class: ''
-  intro:
+  quote:
     type: section
     attributes:
       boxed: ''
-  features:
+  jobTitle:
+    title: Resume
     type: section
     attributes:
       boxed: ''
-  utility:
+  experience:
+    title: Education
     type: section
     attributes:
       boxed: ''
-      class: ''
-  above:
+  portfolio:
     type: section
     attributes:
       boxed: ''
@@ -69,15 +86,7 @@ structure:
     type: section
     attributes:
       boxed: ''
-  expanded:
-    type: section
-    attributes:
-      boxed: ''
-  aside:
-    attributes:
-      class: ''
-    block:
-      fixed: '1'
+      class: 'clients parallax'
   mainbar:
     type: section
     subtype: main

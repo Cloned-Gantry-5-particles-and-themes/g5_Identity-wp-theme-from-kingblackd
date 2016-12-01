@@ -37,9 +37,9 @@ layout:
       - 'skillchart-1002 16.7'
   /quote/:
     -
-      - 'spacer-2470 20'
-      - 'custom-8278 60'
-      - 'spacer-1003 20'
+      - 'spacer-2470 15'
+      - 'quote-8045 70'
+      - 'spacer-1003 15'
   /jobTitle/:
     -
       - career-4984
@@ -52,14 +52,12 @@ layout:
     -
       - sectiontitle-4130
     -
-      - isotope-4854
+      - isotope-7263
   /testimonials/:
     -
       - sectiontitle-8354
     -
       - owlcarousel-7694
-    -
-      - owlcarousel-3535
   /container-main/:
     -
       -
@@ -71,16 +69,14 @@ layout:
           -
             - social-8515
           -
-            - contactdetails-5862
-          -
-            - 'spacer-1647 20'
-            - 'custom-5538 60'
-            - 'spacer-8422 20'
+            - 'spacer-1647 25'
+            - 'custom-5538 50'
+            - 'spacer-8422 25'
       -
         'sidebar 25': {  }
   /maincontent-bottom/:
     -
-      - custom-8220
+      - googlemap-5181
   /footer/:
     -
       - copyright-1736
@@ -105,6 +101,7 @@ structure:
       boxed: ''
   process:
     type: section
+    title: Experience
     attributes:
       boxed: ''
   skills:
@@ -118,10 +115,12 @@ structure:
       boxed: ''
   jobTitle:
     type: section
+    title: Resume
     attributes:
       boxed: ''
   experience:
     type: section
+    title: Education
     attributes:
       boxed: ''
   portfolio:
@@ -164,6 +163,8 @@ content:
     attributes:
       text: 'LEONID SPEKTOR'
       class: 'g-logo g-logo-Identity'
+    block:
+      class: 'nomarginright nopaddingright'
   menu-6409:
     block:
       class: smallpadding-content
@@ -199,7 +200,7 @@ content:
     attributes:
       image: 'https://media.licdn.com/mpr/mpr/shrinknp_200_200/AAEAAQAAAAAAAARvAAAAJDlkYzBhMDIwLWI4MDQtNDRiNC1iNDhiLThmZTdiNDM5ZDczZg.jpg'
       name: 'LEONID SPEKTOR'
-      title: 'Sen. Software Developer / Tech Lead '
+      title: 'Sr. Software Developer'
   bio-4926:
     title: 'Mini Bio'
     attributes:
@@ -283,7 +284,7 @@ content:
       label: Skills
       icon: 'fa fa-bar-chart fa-2x'
     block:
-      class: center
+      class: 'center nomarginbottom nopaddingbottom'
   skillchart-5713:
     title: 'Circle Graph'
     attributes:
@@ -320,10 +321,9 @@ content:
       title: Creativity
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
       percent: '89'
-  custom-8278:
-    title: 'Custom HTML'
+  quote-8045:
     attributes:
-      html: "<i class=\"fa fa-2x fa-quote-right fa-flip-horizontal\" aria-hidden=\"true\"></i><h4 style=\"display:inline\">  I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams. </h4>\n<i class=\"fa fa-2x fa-quote-right\" aria-hidden=\"true\"></i>"
+      text: ' I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams.'
     block:
       variations: center
   career-4984:
@@ -365,6 +365,8 @@ content:
           enddate: 2013-11
           current: 'no'
           name: Infosys
+    block:
+      class: 'nomargintop nopaddingtop'
   sectiontitle-4130:
     title: 'Section Title'
     attributes:
@@ -374,64 +376,49 @@ content:
       class: white
     block:
       class: center
-  isotope-4854:
-    title: Portfolio
+  isotope-7263:
     attributes:
       items:
         -
-          filters: 'tommy zed'
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
-          label: 'Projects Done'
-          name: 'New item'
-        -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
         -
           filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
-          label: ''
-          name: 'New item'
-        -
-          filters: ''
-          image: 'gantry-media://savannah/edgar.jpg'
-          icon: 'fa fa-align-justify'
-          title: dasdad
+          image: 'gantry-media://images/portfolio/edgar.jpg'
+          icon: 'fa fa-align-left'
+          title: test
           label: ''
           name: 'New item'
   sectiontitle-8354:
@@ -449,90 +436,34 @@ content:
       variant: o3
       dots: enable
       slides: '1'
-      autoplay: enable
+      autoplay: disable
       items:
         -
           image: ''
-          title: ''
-          desc: "<p class=\"quote\">\"It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jak Doe</p>\n\t\t\t\t                "
+          title: 'Jak Doe'
+          desc: "It’s easy to see the passion that the guys have for their work. He really care about making unique designs for their clients, and put in incredible effort to make the whole process a real pleasure.\t\t\t\t                "
           link: ''
           linktext: ''
           buttonclass: button-outline
           name: 'Jak Doe'
         -
           image: ''
-          title: ''
-          desc: "<p class=\"quote\">\"My website couldn’t look better after working with the him on the redesign. Now my site and corporate\tbranding is outstanding! He is awesome.\"</p>\n\t\t\t\t                \t<p class=\"author\">John Doe</p>\n\t\t\t\t                \t<p class=\"company\">Manager <a href=\"#\">@Web Planet</a></p>"
+          title: 'John Doe'
+          desc: 'My website couldn’t look better after working with the him on the redesign. Now my site and corporate branding is outstanding! He is awesome'
           link: ''
           linktext: ''
           buttonclass: button-outline
           name: 'John Doe'
         -
           image: ''
-          title: ''
-          desc: "<p class=\"quote\">\"I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job.\"</p>\n\t\t\t\t                \t<p class=\"author\">Jane Doe</p>\n\t\t\t\t                \t"
+          title: 'Jane Doe'
+          desc: 'I am incredibly happy with the increased traffic my site has received since working with you! He is the best at this job.'
           link: ''
           linktext: ''
           buttonclass: button-outline
           name: 'Jane Doe'
-  owlcarousel-3535:
-    title: logos
-    attributes:
-      enabled: 0
-      title: 'Some of <strong>my clients</strong>'
-      nav: enable
-      slides: '3'
-      autoplay: enable
-      autoplaySpeed: ''
-      items:
-        -
-          image: 'gantry-media://images/clients/twitter.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: Twitter
-        -
-          image: 'gantry-media://clients/magento.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: Magento
-        -
-          image: 'gantry-media://clients/mailchimp.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: MailChimp
-        -
-          image: 'gantry-media://clients/nexternal.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: Nexternal
-        -
-          image: 'gantry-media://images/clients/wordpress.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: Wordpress
-        -
-          image: 'gantry-media://clients/google.png'
-          title: ''
-          desc: ''
-          link: ''
-          linktext: ''
-          buttonclass: button-outline
-          name: Google
+    block:
+      class: 'nopaddingtop nomargintop'
   sectiontitle-2639:
     title: 'Section Title'
     attributes:
@@ -546,56 +477,74 @@ content:
       display: icons_only
       items:
         -
-          icon: 'fa fa-facebook-square fa-fw fa-2x'
+          icon: 'fa fa-facebook-square fa-3x'
           text: facebook
           link: 'http://www.facebook.com/'
           name: Facebook
         -
-          icon: 'fa fa-twitter-square fa-fw fa-2x'
+          icon: 'fa fa-twitter-square fa-3x'
           text: twitter
           link: 'http://www.twitter.com/'
           name: Twitter
         -
-          icon: 'fa fa-google-plus-square fa-fw fa-2x'
+          icon: 'fa fa-google-plus-square fa-3x'
           text: 'google plus'
           link: 'https://plus.google.com/'
           name: Google+
         -
-          icon: 'fa fa-linkedin-square fa-fw fa-2x'
+          icon: 'fa fa-linkedin-square fa-3x'
           text: linkedin
           link: 'https://ca.linkedin.com/in/leonid-spektor-3a71a94'
           name: LinkedIn
         -
-          icon: 'fa fa-pinterest-square fa-fw fa-2x'
+          icon: 'fa fa-pinterest-square fa-3x'
           text: pintrest
           link: pintrest.com
           name: Pintrest
         -
-          icon: 'fa fa-youtube-play fa-fw fa-2x'
+          icon: 'fa fa-youtube-play fa-3x'
           text: vimeo
           link: vimeo.com
-          name: Vimeo
-  contactdetails-5862:
-    title: 'Contact Details'
-    attributes:
-      address: '50 Lynn Williams Street, Unit 414,</br> Toronto, Ontario, Canada'
-      phone: 416-500-8950
-      phone2: ''
-      email: deanbalh@gmail.com
-      icon: 'fa fa-map-marker fa-2x'
+          name: Video
+    block:
+      variations: nopaddingall
   custom-5538:
     title: 'Custom HTML'
     attributes:
       html: "<h4 class=\"center\">Drop me a Line</h4>\n[contact-form-7 id=\"12\" title=\"Contact form 1\"]"
       filter: '1'
-  custom-8220:
-    title: 'Custom HTML'
-    attributes:
-      html: "<div id=\"map_canvas\" class=\"item_fade_in\">\n</div>\n<script src=\"{{ url('gantry-assets://js/gmap-settings.js') }}\"></script>\n<script async defer src=\"https://maps.googleapis.com/maps/api/js?key=AIzaSyDViAPRqigYG26MGZpXJuBfuuWgsQthfJI&callback=initMap\"\n  type=\"text/javascript\"></script>\n"
-      twig: '1'
-  copyright-1736:
     block:
-      variations: 'nopaddingall nomarginall'
+      class: nomargintop
+  googlemap-5181:
+    title: 'Google Map'
+    attributes:
+      apikey: AIzaSyBjgU_XPIpvmLVKnA1CXjboUy9NgvbRVZg
+      width: 100%
+      height: 400px
+      maptype: ROADMAP
+      latitude: '23.73176'
+      longitude: '90.40640'
+      zoom: '14'
+      defaultmarker: show
+      markertext: "<div style=\"max-width: 300px\" id=\"content\">\n<div id=\"bodyContent\">\n\t  <h4>Jonathan Doe</h4>\n      <p style=\"font-size: 12px\">12, Segun Bagicha, 10th floor, Dhaka, Bangladesh. Lorem ipsum dolor sit amet incididunt ut labore et dolore psum dolor magna aliqua.</p>\n      </div>\n      </div>"
+      markerstate: '0'
+      scrollwheel: '0'
+      dragging: disabled
+      snazzymaps: "[ {\n    \"featureType\": \"landscape\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#474D5D\"\n    }]\n}, {\n    \"elementType\": \"labels.text.fill\",\n    \"stylers\": [{\n        \"color\": \"#FFFFFF\"\n    }]\n}, {\n    \"elementType\": \"labels.text.stroke\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#50525f\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"geometry.stroke\",\n    \"stylers\": [{\n        \"visibility\": \"on\"\n    }, {\n        \"color\": \"#808080\"\n    }]\n}, {\n    \"featureType\": \"poi\",\n    \"elementType\": \"labels\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"transit\",\n    \"elementType\": \"labels.icon\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"poi\",\n    \"elementType\": \"geometry\",\n    \"stylers\": [{\n        \"color\": \"#808080\"\n    }]\n}, {\n    \"featureType\": \"water\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#3071a7\"\n    }, {\n        \"saturation\": -65\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"labels.icon\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"landscape\",\n    \"elementType\": \"geometry.stroke\",\n    \"stylers\": [{\n        \"color\": \"#bbbbbb\"\n    }]\n}]"
+      css:
+        class: item_fade_in
+  copyright-1736:
+    attributes:
+      date:
+        start: '2016'
+        end: now
+      owner: InsightLounge
+      link: msn.ca
+      post:
+        text: 'All Rights Reserved'
+      target: _blank
+      additional:
+        text: 'Developed by Mj exclusively for Insight Lounge.'
   totop-8670:
     title: 'To Top'
     attributes:

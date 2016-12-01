@@ -32,10 +32,10 @@
                                   {% if item.title %}
                                       <h1 class="g-owlcarousel-item-title">{{ item.title|raw }}</h1>{% endif %}
                                       {% elseif particle.variant == 'o3' %}
-                                      {% if item.title %}
-                                          <h1 class="g-owlcarousel-item-title">{{ item.title|raw }}</h1>{% endif %}
-                                      {% if item.desc %}
-                                          <div class="g-owlcarousel-item-desc">{{ item.desc|raw }}</div>{% endif %}
+                                          <div class="g-owlcarousel-item-desc">
+                                          <p class="quote"><p>{{ item.desc|raw }}</p></p>
+                                          <p class="author"><p>{{ item.title|raw }}</p></p>
+                                        </div>
                                   {% else %}
                                   {% if item.title %}
                                       <h1 class="g-owlcarousel-item-title">{{ item.title|raw }}</h1>{% endif %}

@@ -6,6 +6,9 @@
     left: 0;
     right: 0;
     transition: all 1s ease-out 0s;
+    @include breakpoint(mobile-only) {
+      padding: $section-padding - 2 0;
+    }
 
     // Container
     .g-container {
@@ -65,10 +68,16 @@
             > li {
                 margin: 0 0.2rem;
                 transition: all 0.2s ease-out 0s;
+                @include breakpoint(tablet-range) {
+                  margin: 0;
+                }
 
                 > .g-menu-item-container {
                     color: $navigation-text-color;
                     padding: $content-padding/2 16px;
+                    @include breakpoint(tablet-range) {
+            					padding: $content-padding/2 5px;
+            				}
                     border-radius: 4px;
 
                     > .g-menu-item-content {
@@ -223,6 +232,10 @@
         .g-content {
             margin: 0 0 5px;
             padding: 0 0;
+            @include breakpoint(mobile-only) {
+              padding: inherit;;
+              margin: inherit;
+            }
             transition: all 0.5s ease-out 0s;
             img,svg {
               padding-top: 5px;

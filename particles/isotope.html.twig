@@ -32,8 +32,9 @@
         <div id="portfolio-items" class="portfolio-items item_fade_in">
             {% for item in particle.items %}
                 <article class="{{ item.filters|e }}">
-                    <a href="#!projects/project-single.html">
-                        <img src="{{ url(item.image)|e }}" alt="image"/>
+                  {% if particle.link %}
+                    <a href="{{ particle.link }}">{% endif %}
+                        <img src="{{ url(item.image)|e }}" alt="{{ item.title|e }}"/>
                         <div class="overlay">
                             <div class="item-info">
                                 <i class="fa fa-camera"></i>
@@ -42,7 +43,8 @@
                             </div>
                         </div>
                         <!-- End .overlay -->
-                    </a>
+                        {% if particle.link %}
+                      </a>{% endif %}
                 </article>
             {% endfor %}
         </div>
