@@ -1,0 +1,23 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+{% block particle %}
+
+    <!-- Start portfolio-items -->
+    <div id="portfolio-items" class="portfolio-items item_fade_in {{ particle.class|e }}">
+      <article class="{{ item.filters|e }}">
+        {% if particle.link %}
+          <a href="{{ particle.link }}">{% endif %}
+              <img src="{{ url(particle.image)|e }}" class="image" alt=""/>
+              <div class="overlay">
+                  <div class="item-info">
+                      <i class="fa fa-camera"></i>
+                      <h3>{{ particle.title|e }}</h3>
+                      <span>{{ particle.label|e }}</span>
+                  </div>
+              </div>
+              <!-- End .overlay -->
+              {% if particle.link %}
+          </a>{% endif %}    
+      </article>
+    </div>
+    <!-- End portfolio-items -->
+{% endblock %}

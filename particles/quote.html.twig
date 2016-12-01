@@ -1,0 +1,13 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% block particle %}
+
+    <!-- quote -->
+    <div class="{{ particle.css.class|e }}">
+        <i class="fa fa-2x fa-quote-right fa-flip-horizontal" style="margin-right: 15px;" aria-hidden="true"></i>
+        <h4 style="display:inline">{{ particle.text|raw }}</h4>
+        <i class="fa fa-2x fa-quote-right" style="margin-left: 15px;" aria-hidden="true"></i>
+    </div>
+    <!-- end quote -->
+
+{% endblock %}

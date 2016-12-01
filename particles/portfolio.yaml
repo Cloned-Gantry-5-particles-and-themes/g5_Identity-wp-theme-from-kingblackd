@@ -1,0 +1,33 @@
+name: Portfolio
+description: Display a Portfolio Filter.
+type: particle
+icon: fa-folder-open-o
+
+form:
+  fields:
+    enabled:
+      type: input.checkbox
+      label: Enabled
+      description: Globally enable icon menu particles.
+      default: true
+
+    class:
+      type: input.selectize
+      label: CSS Classes
+      description: CSS class name for the particle.
+      
+    image:
+      type: input.imagepicker
+      label: Image
+      description: Select desired image.
+
+    title:
+      type: input.text
+      label: Title
+      description: Enter the title
+
+    label:
+      type: input.text
+      label: Label
+      description: Customize the Label.
+      placeholder: Photo / Web

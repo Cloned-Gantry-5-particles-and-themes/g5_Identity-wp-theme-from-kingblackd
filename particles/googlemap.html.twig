@@ -1,0 +1,120 @@
+{% extends '@nucleus/partials/particle.html.twig' %}
+
+{% set attr_extra = '' %}
+{% if particle.extra %}
+    {% for attributes in particle.extra %}
+        {% for key, value in attributes %}
+            {% set attr_extra = attr_extra ~ ' ' ~ key|e ~ '="' ~ value|e('html_attr') ~ '"' %}
+        {% endfor %}
+    {% endfor %}
+{% endif %}
+
+{% block particle %}
+
+<div id="map_canvas" class="g-googlemap {{ particle.css.class|e }}" {% if particle.extra %}{{ attr_extra|raw }}{% endif %} >
+    <div id="g-map-{{ id }}" style="width: {{ particle.width|e }}; height: {{ particle.height|e }};"></div>
+</div>
+
+<script src="https://maps.googleapis.com/maps/api/js?key={{particle.apikey}}"></script>
+
+{% endblock %}
+
+
+    {# Load assets needed for this particle #}
+    {% block javascript_footer %}
+        <script>
+            function initMap() {
+
+                var latlng = new google.maps.LatLng({{ particle.latitude|e }},{{ particle.longitude|e }});
+
+                {% if particle.dragging|default('enabled') == 'enabled' %}
+                    var isDraggable = 1;
+                {% elseif particle.dragging|default('enabled') == 'disabledmobile' %}
+                    {% do gantry.load('jquery') %}
+                    var isDraggable = jQuery(document).width() > 767 ? true : 0;
+                {% else %}
+                    var isDraggable = 0;
+                {% endif %}
+
+                var myOptions =
+                {
+                    zoom: {{ particle.zoom|e }},
+                    center: latlng,
+                    mapTypeId: google.maps.MapTypeId.{{ particle.maptype|default('ROADMAP')|e }},
+
+                    {% if particle.snazzymaps %}
+                        styles: {{ particle.snazzymaps|raw }},
+                    {% endif %}
+
+                    scrollwheel: {{ particle.scrollwheel|default(0)|e }},
+                    draggable: isDraggable,
+                    navigationControl: false,
+                    mapTypeControl: false,
+                };
+
+                var map = new google.maps.Map(document.getElementById("g-map-{{ id }}"), myOptions);
+
+                {% if particle.defaultmarker|default('show') == 'show' %}
+                    var myMarker = new google.maps.Marker(
+                    {
+                        position: latlng,
+                        map: map,
+                        icon: 'wp-content/uploads/img/location-icon.png',
+                  	  title: '',
+                    });
+
+                    var contentString = '{{ particle.markertext|e('js') }}';
+
+                    var infowindow = new google.maps.InfoWindow({
+                        content: contentString
+                    });
+
+                    {% if particle.markertext %}
+                        myMarker.addListener('click', function() {
+                            infowindow.open(map, myMarker);
+                        });
+
+                        {% if particle.markerstate|default(1) %}
+                            infowindow.open(map, myMarker);
+                        {% endif %}
+                    {% endif %}
+                {% endif %}
+
+                {% for marker in particle.markers %}
+                    {% set marker_id = random() %}
+
+                    var myMarker{{ marker_id|e }} = new google.maps.Marker(
+                    {
+                        position: {lat: {{ marker.latitude|e }}, lng: {{ marker.longitude|e }}},
+                        map: map,
+                    });
+
+                    var contentString{{ marker_id|e }} = '{{ marker.markertext|e('js') }}';
+
+                    var infowindow{{ marker_id|e }} = new google.maps.InfoWindow({
+                        content: contentString{{ marker_id|e }}
+                    });
+
+                    {% if marker.markertext %}
+                    myMarker{{ marker_id|e }}.addListener('click', function() {
+                        infowindow{{ marker_id|e }}.open(map, myMarker{{ marker_id|e }});
+                    });
+
+                        {% if marker.markerstate|default(1) %}
+                            infowindow{{ marker_id|e }}.open(map, myMarker{{ marker_id|e }});
+                        {% endif %}
+                    {% endif %}
+
+                {% endfor %}
+
+                // Resize stuff...
+                google.maps.event.addDomListener(window, "resize", function() {
+                    var center = map.getCenter();
+                    google.maps.event.trigger(map, "resize");
+                    map.setCenter(center);
+                });
+            }
+            initMap();
+        </script>
+    {% endblock %}
+    {# End loading assets #}
