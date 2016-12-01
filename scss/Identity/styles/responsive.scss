@@ -181,7 +181,7 @@
   }
 }
 /* Small devices (tablets, 768px and up) */
-@include breakpoint(tablet-range) {
+@include breakpoint(no-mobile) {
   .project-description {
     text-align: center;
   }

@@ -37,9 +37,7 @@ layout:
       - 'skillchart-1002 16.7'
   /quote/:
     -
-      - 'spacer-2470 15'
-      - 'quote-8045 70'
-      - 'spacer-1003 15'
+      - quote-8045
   /jobTitle/:
     -
       - career-4984
@@ -52,7 +50,9 @@ layout:
     -
       - sectiontitle-4130
     -
-      - isotope-7263
+      - 'spacer-spacer-7598 10'
+      - 'isotope-7263 80'
+      - 'spacer-spacer-1929 10'
   /testimonials/:
     -
       - sectiontitle-8354
@@ -323,6 +323,7 @@ content:
       percent: '89'
   quote-8045:
     attributes:
+      class: item_bottom
       text: ' I believe that we are who we choose to be. Nobody’s going to come and save you, you’ve got to save yourself. Nobody’s going to give you anything. You’ve got to go out and fight for it. Nobody knows what you want except for you. And nobody will be as sorry as you if you don’t get it. So don’t give up on your dreams.'
     block:
       variations: center
@@ -348,7 +349,7 @@ content:
     attributes:
       items:
         -
-          section: present
+          section: latest
           title: 'York University Toronto'
           label: 'Computer Science'
           desc: 'Thesis: Real-time image-analysis system for measuring red velocity. Installation: Sunnybrook Hospital'
@@ -357,7 +358,7 @@ content:
           current: 'yes'
           name: 'Creative Agency'
         -
-          section: present
+          section: latest
           title: 'University of Toronto'
           label: 'Master of Engineering'
           desc: 'Thesis: Real-time image-analysis system for measuring red velocity. Installation: Sunnybrook Hospital'
@@ -436,7 +437,7 @@ content:
       variant: o3
       dots: enable
       slides: '1'
-      autoplay: disable
+      autoplay: enable
       items:
         -
           image: ''
@@ -477,6 +478,11 @@ content:
       display: icons_only
       items:
         -
+          icon: 'fa fa-linkedin-square fa-3x'
+          text: linkedin
+          link: 'https://ca.linkedin.com/in/leonid-spektor-3a71a94'
+          name: LinkedIn
+        -
           icon: 'fa fa-facebook-square fa-3x'
           text: facebook
           link: 'http://www.facebook.com/'
@@ -491,11 +497,6 @@ content:
           text: 'google plus'
           link: 'https://plus.google.com/'
           name: Google+
-        -
-          icon: 'fa fa-linkedin-square fa-3x'
-          text: linkedin
-          link: 'https://ca.linkedin.com/in/leonid-spektor-3a71a94'
-          name: LinkedIn
         -
           icon: 'fa fa-pinterest-square fa-3x'
           text: pintrest
@@ -522,14 +523,14 @@ content:
       width: 100%
       height: 400px
       maptype: ROADMAP
-      latitude: '23.73176'
-      longitude: '90.40640'
-      zoom: '14'
+      latitude: '43.5956496'
+      longitude: '-79.6370788'
+      zoom: '13'
       defaultmarker: show
       markertext: "<div style=\"max-width: 300px\" id=\"content\">\n<div id=\"bodyContent\">\n\t  <h4>Jonathan Doe</h4>\n      <p style=\"font-size: 12px\">12, Segun Bagicha, 10th floor, Dhaka, Bangladesh. Lorem ipsum dolor sit amet incididunt ut labore et dolore psum dolor magna aliqua.</p>\n      </div>\n      </div>"
       markerstate: '0'
       scrollwheel: '0'
-      dragging: disabled
+      dragging: enabled
       snazzymaps: "[ {\n    \"featureType\": \"landscape\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#474D5D\"\n    }]\n}, {\n    \"elementType\": \"labels.text.fill\",\n    \"stylers\": [{\n        \"color\": \"#FFFFFF\"\n    }]\n}, {\n    \"elementType\": \"labels.text.stroke\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#50525f\"\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"geometry.stroke\",\n    \"stylers\": [{\n        \"visibility\": \"on\"\n    }, {\n        \"color\": \"#808080\"\n    }]\n}, {\n    \"featureType\": \"poi\",\n    \"elementType\": \"labels\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"transit\",\n    \"elementType\": \"labels.icon\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"poi\",\n    \"elementType\": \"geometry\",\n    \"stylers\": [{\n        \"color\": \"#808080\"\n    }]\n}, {\n    \"featureType\": \"water\",\n    \"elementType\": \"geometry.fill\",\n    \"stylers\": [{\n        \"color\": \"#3071a7\"\n    }, {\n        \"saturation\": -65\n    }]\n}, {\n    \"featureType\": \"road\",\n    \"elementType\": \"labels.icon\",\n    \"stylers\": [{\n        \"visibility\": \"off\"\n    }]\n}, {\n    \"featureType\": \"landscape\",\n    \"elementType\": \"geometry.stroke\",\n    \"stylers\": [{\n        \"color\": \"#bbbbbb\"\n    }]\n}]"
       css:
         class: item_fade_in

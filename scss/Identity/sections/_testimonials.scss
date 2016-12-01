@@ -4,7 +4,6 @@
 	padding: $section-padding 0;
 	position: relative;
 	z-index: 10;
-
 	@if $testimonials-background-image {
 		background: url($testimonials-background-image) no-repeat center top;
 		background-size: cover;
@@ -28,6 +27,7 @@
 	.g-title {
 		margin-bottom: 0;
 	}
+
 	.g-owlcarousel-item-content {
 		margin-top: 10px;
 		margin-bottom: 0;
@@ -37,7 +37,6 @@
 
 	.owl-dots {
 		position: static;
-
 	}
 
 	.g-owlcarousel-item-content-container {
@@ -52,76 +51,90 @@
 		}
 	}
 
-
 	.g-owlcarousel-item-content-container {
-	    backface-visibility: hidden;
-	    margin: 0 auto;
-	    overflow: hidden;
-	    position: relative;
-	    z-index: 1;
+		backface-visibility: hidden;
+		margin: 0 auto;
+		overflow: hidden;
+		position: relative;
+		z-index: 1;
 	}
+
 	.g-owlcarousel-item-desc {
-	    float: left;
-	    color:#fff;
+		float: left;
+		color: #fff;
 	}
-	.g-owlcarousel-item-desc .author{
-	 margin:0px 0px 6px 0px;
-	 font-weight: bold;
+
+	.g-owlcarousel-item-desc .author {
+		margin: 0 0 6px;
+		font-weight: bold;
 	}
-	.g-owlcarousel-item-desc .company a{
-	    color:#fff;
+
+	.g-owlcarousel-item-desc .company a {
+		color: #fff;
 	}
+
 	.pagination {
-	    position: absolute;
-	    text-align: center;
-	    top: 82px;
-	    width: 100%;
-	    z-index: 20;
+		position: absolute;
+		text-align: center;
+		top: 82px;
+		width: 100%;
+		z-index: 20;
 	}
+
 	.owl-dot {
-	    background: none repeat scroll 0 0 #544B43;
-	    border-radius: 20px;
-	    box-shadow: none;
-	    cursor: pointer;
-	    display: inline-block;
-	    height: 11px;
-	    margin: 0 6px;
-	    text-indent: -9999px;
-	    width: 11px;
+		background: none repeat scroll 0 0 #544B43;
+		border-radius: 20px;
+		box-shadow: none;
+		cursor: pointer;
+		display: inline-block;
+		height: 11px;
+		margin: 0 6px;
+		text-indent: -9999px;
+		width: 11px;
 	}
+
 	.owl-dot:hover {
-	    background: none repeat scroll 0 0 #685C52;
+		background: none repeat scroll 0 0 #685C52;
 	}
+
 	.owl-dot:focus {
-	    background: none repeat scroll 0 0 #685C52;
+		background: none repeat scroll 0 0 #685C52;
 	}
+
 	.owl-dot:active {
-	    background: none repeat scroll 0 0 #685C52;
+		background: none repeat scroll 0 0 #685C52;
 	}
-	.g-owlcarousel-item-content-container, .g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
-	    height: 100%;
-	    max-height: 200px;
-	    max-width: 585px;
-	    width: 100%;
+
+	.g-owlcarousel-item-content-container,
+	.g-owlcarousel-item-content-container .g-owlcarousel-item-desc {
+		height: 100%;
+		max-height: 200px;
+		max-width: 585px;
+		width: 100%;
 	}
+
 	.owl-dots {
-	    position: relative;;
-	    text-align: center;
-	    top: 0;
-	    width: 100%;
-	    z-index: 20;
+		position: relative;
+		text-align: center;
+		top: 0;
+		width: 100%;
+		z-index: 20;
 	}
+
 	.owl-dots .owl-dot {
-	    background: none repeat scroll 0 0 #D8D8D8;
+		background: none repeat scroll 0 0 #D8D8D8;
 	}
+
 	.owl-dots .owl-dot:hover {
-	    background: none repeat scroll 0 0 #333333;
+		background: none repeat scroll 0 0 #333333;
 	}
+
 	.owl-dots .swiper-visible-switch {
-	    background: none repeat scroll 0 0 #262626;
+		background: none repeat scroll 0 0 #262626;
 	}
+
 	.owl-dots .swiper-active-switch {
-	    background: none repeat scroll 0 0 #262626;
+		background: none repeat scroll 0 0 #262626;
 	}
 
 	a {
@@ -141,6 +154,9 @@
 		width: 40px;
 	}
 
+	p {
+		font-size: 1rem;
+	}
 }
 @media print {
 	#g-testimonials {

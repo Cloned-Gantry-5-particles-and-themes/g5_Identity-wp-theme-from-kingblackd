@@ -292,3 +292,41 @@ a {
         padding-top: 0;
     }
 }
+
+
+.quote-block {
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  position: relative;
+  &:before {
+    content: "\f10e";
+    position: relative;
+    /* left: -35px; */
+    margin-right: 15px;
+    top: 0;
+    ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+    -webkit-transform: scale(-1, 1);
+    -ms-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    font-size: 2rem;
+    display: inline-block;
+    font-family: 'FontAwesome';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  &:after {
+    content: "\f10e";
+    position: relative;
+    margin-left: 15px;
+    /* right: -10px; */
+    top: 0;
+    font-size: 2rem;
+    /* display: inline-block; */
+    font-family: 'FontAwesome';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}

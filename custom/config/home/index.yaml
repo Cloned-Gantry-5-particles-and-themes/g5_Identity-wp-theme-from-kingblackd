@@ -1,5 +1,5 @@
 name: home
-timestamp: 1480586854
+timestamp: 1480626141
 version: 7
 preset:
   image: 'gantry-admin://images/layouts/default.png'
@@ -56,17 +56,17 @@ particles:
     skillchart-1146: 'Circle Graph'
     skillchart-6806: jQuery
     skillchart-1002: PHP
-  spacer:
-    spacer-2470: Spacer
-    spacer-1003: Spacer
-    spacer-1647: Spacer
-    spacer-8422: Spacer
   quote:
     quote-8045: Quote
   career:
     career-4984: Career
   timeline:
     timeline-4115: Education
+  spacer:
+    spacer-spacer-7598: Spacer
+    spacer-spacer-1929: Spacer
+    spacer-1647: Spacer
+    spacer-8422: Spacer
   isotope:
     isotope-7263: Isotope
   messages:

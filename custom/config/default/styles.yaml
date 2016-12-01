@@ -13,7 +13,7 @@ navigation:
   text-color: '#ffffff'
 header:
   background: '#312f38'
-  background-image: ''
+  background-image: 'gantry-media://header/slide2.png'
   background-overlay: disabled
   text-color: '#eceeef'
 intro:
@@ -30,7 +30,7 @@ above:
   text-color: '#424753'
 testimonials:
   background: '#312f38'
-  background-image: 'gantry-media://2014/09/parallax3.jpg'
+  background-image: 'gantry-media://testimonials/parallax3.jpg'
   background-overlay: disabled
   text-color: '#ffffff'
 expanded:

@@ -64,12 +64,12 @@
 		}
 		.g-owlcarousel-item-title {
 		  font-family: get-font-family($font-family-title);
-		    font-size: 8vw;
-		    line-height: 8vw;
+		    font-size: 6vw;
+		    line-height: 10vw;
 		    text-transform: uppercase;
 		    font-weight: $font-weight-medium;
 		    margin: 0;
-		    padding: 8px 16px 3px;
+		    padding: 8px 35px 3px;
 		    letter-spacing: -2px;
 		    transition: all .5s ease 0s;
 				@include breakpoint(mobile-only) {
@@ -80,12 +80,13 @@
 
 		.g-owlcarousel-item-desc {
 			font-family: get-font-family($font-family-default);
-		    font-size: 2.25vw;
+		    font-size: 2vw;
 		    line-height: 3vw;
 		    font-weight: $font-weight-bold;
-		    padding-bottom: 6px;
+		    padding-bottom: 25px;
 		    transition: all 0s ease 0s;
 		    margin: 0;
+				margin-top: -2vw;
 		    letter-spacing: 0;
 		    text-transform: uppercase;
 				transition: all .5s ease 0s;

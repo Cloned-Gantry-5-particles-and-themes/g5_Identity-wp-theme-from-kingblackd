@@ -29,10 +29,10 @@ form:
           type: select.select
           label: Section
           description: Select the section of the timeline.
-          default: present
+          default: latest
           options:
-            present: Present
-            education: Education
+            latest: Latest
+            certifications: Certifications
         .title:
           type: input.text
           label: Title
